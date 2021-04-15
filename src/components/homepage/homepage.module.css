@@ -1,0 +1,44 @@
+.homepageContainer{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/Scattered-Forcefields.svg') no-repeat center;
+    background-size: contain;
+}
+.bgVid{
+    position: absolute;
+    top: 50%;
+    background: url('../../assets/Confetti-Doodles.svg') no-repeat center;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    width: 40%;
+    height: 35%;
+}
+.bgVid > p{
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 100px;
+    letter-spacing: 1px
+}
+
+.j{
+    color: #d0504b;
+    font-size:120px;
+}
+
+.n{
+    color: #fce84f;
+    font-size:120px;
+}
+.t{
+    color: rgb(162, 169, 175);
+    font-size:120px;
+}
+.lilInfo{
+    font-size:20px !important;
+    letter-spacing: 5px !important;
+    font-family: 'New Tegomin', serif !important;
+    line-height: 40px !important;
+}
+
+/* color: #d0504b #fce84f */
