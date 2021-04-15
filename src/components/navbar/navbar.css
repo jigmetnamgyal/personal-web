@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.navbar{
+    width: 100vw !important;
+    z-index: 100 !important;
+    padding-top: 30px !important;
+}
+.another{
+    flex: 1 !important;
+}
+
+#responsive-navbar-nav{
+    position: relative;
+    overflow: hidden;
+}
+.nav-link{
+    color: rgb(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px 20px;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+.active > a{
+    color: red !important;
+    background-color: transparent !important;
+    transition: all 0.7s;
+
+}
+#responsive-navbar-nav a:not(:only-child):after{
+    content: '\f105';
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+#responsive-navbar-nav .active > a:not(:only-child):after{
+    transform: rotate(90deg);
+}
+
+.hori-selector{
+    display: inline-block;
+    position:absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background-color: #000000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+}
+.menu{
+   color: black !important;
+}
+.navbar-toggler-icon{
+    width: 100% !important;
+    height: 100% !important;
+}
+.nav-item{
+    color: black !important;
+    margin-right: 15px !important;
+}
+.icons{
+    margin-right: 8px;
+    margin-top: -3px;
+}
+.menu{
+    font-size: 30px !important;
+}
+.navbar-logo{
+    padding: 15px !important;
+    color: #000000 !important;
+}
+.nav-link{
+    color: #000000 !important;
+}
