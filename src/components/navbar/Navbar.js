@@ -14,7 +14,7 @@ const NavigationBar = () => {
             collapseOnSelect
             expand="lg"
             variant="dark">
-            <Navbar.Brand className="navbar-logo" href="/">Jigme Tashi Namgyal</Navbar.Brand>
+            <Navbar.Brand className="navbar-logo" href="/">Jigme T Namgyal</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
                 <AiOutlineMenu className="menu"/>
             </Navbar.Toggle>
