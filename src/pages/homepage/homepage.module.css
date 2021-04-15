@@ -1,7 +1,7 @@
 .homepageContainer{
     position: relative;
     width: 100vw;
-    height: 76vh;
+    height: 75vh;
 }
 .bgImg{
     position: absolute;
@@ -18,7 +18,7 @@
     top: 50%;
     background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-70%, -55%);
     width: 40%;
     height: 35%;
 }
@@ -28,6 +28,32 @@
     line-height: 100px;
     letter-spacing: 5px
 }
+.btnContainer{
+    position: absolute;
+    top: 47.5%;
+    left: 60%;
+}
+.btnAbout{
+    width: 150px !important;
+    height: 50px !important;
+    background-color: #fce84f !important;
+    border: 1px solid #fce84f !important;
+    outline: none !important;
+}
+
+.btnAbout > a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'New Tegomin', serif !important;
+}
+.btnAbout:hover{
+    background-color: transparent !important;
+}
+
+.btnAbout:hover > a{
+    text-decoration: none;
+    color: #000000;
+} 
 
 .j{
     color: #d0504b;
