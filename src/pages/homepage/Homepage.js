@@ -1,6 +1,6 @@
 import styles from './homepage.module.css';
 // import me from '../../assets/me.svg';
-import rich from '../../assets/rich.jpeg';
+import rich from '../../assets/rich.png';
 import {motion} from "framer-motion"
 
 const Homepage = () => {
@@ -22,12 +22,14 @@ const Homepage = () => {
                         stiffness: 200,
                         damping: 20
                     }}>
-                    <span className={styles.j}>J</span>igme
-                    <span className={styles.t}> T</span>ashi
+                    <span className={styles.j}>I</span> am
+                    <span className={styles.t}> G</span>lad
                     <br/>
-                    <span className={styles.n}>N</span>amgyal
+                    <span className={styles.n}> Y</span>ou
+                    <span className={styles.t}> A</span>re
+                    <span className={styles.t}> H</span>ere
                 </motion.p>
-                <p className={styles.lilInfo}>Nincompoop Since 2001</p>
+                <p className={styles.lilInfo}>My Name is Jigme Tashi Namgyal. A Programmer, <br /> trouble maker and a goof since 2001 </p>
             </div>
             <div className={styles.btnContainer}>
                 <img className={styles.mePic} src={rich} alt="This is me"/>

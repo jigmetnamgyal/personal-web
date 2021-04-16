@@ -2,6 +2,7 @@
     position: relative;
     width: 100vw;
     height: 75vh;
+    
 }
 .bgImg{
     position: absolute;
@@ -10,34 +11,34 @@
     transform: translate(-50%, -50%);
     width: 100vw;
     height: 100vh;
-    background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+    background: url('../../assets/shape.svg') no-repeat center;
     background-size: contain;
 }
-/* .colorP{
-    color: #ffffff;
-} */
+.colorP{
+    color: #000000;
+}
 .bgVid{
     position: absolute;
-    top: 50%;
-    /* background: url('../../assets/Confetti-Doodles.svg') no-repeat top; */
-    left: 50%;
-    transform: translate(-75%, -55%);
+    top: 48%;
+    background: transparent;
+    left: 42%;
+    transform: translate(-50%, -50%);
     width: 40%;
     height: 35%;
 }
 .bgVid > p{
-    font-size: 90px;
+    font-size: 60px;
     font-family: 'Bebas Neue', cursive;
-    line-height: 100px;
-    letter-spacing: 7px
+    line-height: 80px;
+    letter-spacing: 6px;
+    color: #000000;
 }
 .btnContainer{
     position: absolute;
-    display: flex;
-    align-items: center;
-    top: 20%;
-    left: 63.8%;
-    width: 250px;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    width: 200px;
     height: 250px;
 }
 .btnContainer > p{
@@ -69,24 +70,23 @@
     height: 100%;
 }
 
-
 .j{
     color: #d0504b;
-    font-size:120px;
+    font-size:90px;
 }
 
 .n{
-    color: #fce84f;
-    font-size:120px;
+    color: #d0504b;
+    font-size:90px;
 }
 .t{
-    color: rgb(162, 169, 175);
-    font-size:120px;
+    color: #fce84f;
+    font-size:90px;
 }
 .lilInfo{
+    /* background-color: greenyellow; */
     font-size:20px !important;
-    letter-spacing: 4px !important;
-    font-family: 'Comic Neue', cursive;
+    letter-spacing: 2px !important;
     line-height: 40px !important;
     animation: anim 1.5s ease-in !important;
 }
@@ -100,57 +100,32 @@
 }
 @media only screen and (max-width: 1170px){
     .bgVid > p{
-        font-size: 60px;
-        line-height: 90px;
-    }
-    .lilInfo{
-        font-size:20px !important;
-        line-height: 20px !important;
+        font-size: 40px;
     }
     .j{
-        font-size:100px;
+        color: #d0504b;
+        font-size:70px;
     }
     
     .n{
-        font-size:100px;
+        color: #d0504b;
+        font-size:70px;
     }
     .t{
-        font-size:100px;
+        color: #fce84f;
+        font-size:70px;
+    }
+    .lilInfo{
+        font-size:18px !important;
     }
     .btnContainer{
-        top: 25.5%;
-        left: 60%;
-        width: 250px;
-        height: 250px;
+        left: 72%;
+        width: 180px;
+        height: 200px;
     }
 }
-@media only screen and (max-width: 1030px){
-    .bgVid > p{
-        font-size: 60px;
-    }
-    .lilInfo{
-        font-size: 20px !important;
-        letter-spacing: 2px !important;
-    }
-    .j{
-        font-size:80px;
-    }
-    
-    .n{
-        font-size:80px;
-    }
-    .t{
-        font-size:80px;
-    }
-    /* .btnContainer{
-        top: 25.5%;
-    } */
-}
-@media only screen and (max-width: 893px){
-    .bgVid > p{
-        font-size: 50px;
-        line-height: 60px;
-    }
+
+@media only screen and (max-width: 935px){
     .bgVid{
         position: absolute;
         top: 53%;
@@ -160,37 +135,33 @@
         height: 35%;
     }
     .btnContainer{
-        top: 30%;
-        width: 200px;
-        height: 200px;
+        top: 52%;
+        left: 78%;
+    }
+    .bgImg{
+        background: url('../../assets/shape.svg') no-repeat center;
+        background-size: contain;
     }
 }
-@media only screen and (max-width: 645px){
+@media only screen and (max-width: 745px){
     .bgVid > p{
-        font-size: 50px;
+        font-size: 60px;
+        letter-spacing: 10px;
     }
-    .j{
-        font-size:70px;
-    }
-    
-    .n{
-        font-size:70px;
-    }
-    .t{
-        font-size:70px;
+    .lilInfo{
+        font-size: 20px !important;
     }
     .bgVid{
         position: absolute;
-        top: 40%;
-        left: 64%;
+        top: 30%;
+        left: 56%;
         transform: translate(-50%, -50%);
         width: 70%;
         height: 35%;
     }
     .btnContainer{
-        position: absolute;
-        top: 56%;
-        left: 35%;
+        top: 78%;
+        left: 48%;
         width: 180px;
         height: 180px;
         display: block;
@@ -200,76 +171,87 @@
     }
 }
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 577px){
     .bgVid{
-        top: 40%;
-        left: 58%;
-        width: 70%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
     }
     .btnContainer{
-        top: 60%;
-        left: 30%;
+        top: 78%;
+        left: 45%;
     }
 }
-@media only screen and (max-width: 430px){
-    .bgVid > p{
-        font-size: 50px;
-        line-height: 60px;
-    }
-    .lilInfo{
-        font-size: 15px !important;
-        letter-spacing: 2px !important;
-    }
-    .j{
-        font-size:50px;
-    }
-    
-    .n{
-        font-size:50px;
-    }
-    .t{
-        font-size:50px;
-    }
-    .bgVid{
-        top: 42%;
-        left: 58%;
-        width: 80%;
-    }
-    .btnContainer{
-        top: 64%;
-        left: 25%;
-        width: 170px;
-        height: 170px;
-    }
-}
-@media only screen and (max-width: 393px){
+@media only screen and (max-width: 557px){
     .bgVid > p{
         font-size: 40px;
-        line-height: 60px;
+        letter-spacing: 5px;
     }
     .lilInfo{
         font-size: 15px !important;
-        letter-spacing: 2px !important;
-        
+    }
+    .bgVid{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+    .btnContainer{
+        top: 78%;
+        left: 45%;
+    }
+}
+@media only screen and (max-width: 464px){
+    .bgVid > p{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .lilInfo{
+        font-size: 15px !important;
+    }
+    .bgVid{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
+    .btnContainer{
+        top: 80%;
+        left: 45%;
+    }
+}
+@media only screen and (max-width: 396px){
+    .bgVid > p{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .lilInfo{
+        font-size: 10px !important;
     }
     .j{
-        font-size:70px;
+        color: #d0504b;
+        font-size:60px;
     }
     
     .n{
-        font-size:70px;
+        color: #d0504b;
+        font-size:60px;
     }
     .t{
-        font-size:70px;
+        color: #fce84f;
+        font-size:60px;
     }
     .bgVid{
-        top: 31%;
-        left: 58%;
-        width: 80%;
+        position: absolute;
+        top: 27%;
+        left: 50%;
     }
     .btnContainer{
-        top: 52%;
-        left: 25%;
+        top: 73%;
+        left: 45%;
+        width: 150px;
+        height: 150px;
+    }
+    .colorP{
+        font-size: 12px;
     }
 }
 
