@@ -1,0 +1,13 @@
+.aboutContainer{
+    position: relative;
+    width: 100vw;
+    height: 87.3vh;
+    background: url('../../assets/Scattered-Forcefields.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root{
+    width: 1000px !important;
+}
