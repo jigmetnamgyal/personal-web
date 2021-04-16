@@ -1,6 +1,8 @@
 import styles from './homepage.module.css';
 import {Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import me from '../../assets/me.svg';
+
 const Homepage = () => {
     return (
         <div className={styles.homepageContainer}>
@@ -12,7 +14,8 @@ const Homepage = () => {
                 <p className={styles.lilInfo}>Nincompoop Since 2001</p>
             </div>
             <div className={styles.btnContainer}>
-                <Button className={styles.btnAbout} variant="outline-warning"><Link to="/aboutMe">Explore</Link></Button>
+                {/* <Button className={styles.btnAbout} variant="outline-warning"><Link to="/aboutMe">Explore</Link></Button> */}
+                <img className={styles.mePic} src={me} alt="This is me"/>
             </div>
         </div>
     )
