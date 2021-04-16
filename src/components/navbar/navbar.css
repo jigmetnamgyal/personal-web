@@ -3,6 +3,8 @@
     width: 100vw !important;
     z-index: 100 !important;
     padding-top: 30px !important;
+    border-bottom: 1.5px solid #0689a0;
+    background-color:white;
 }
 .another{
     flex: 1 !important;
