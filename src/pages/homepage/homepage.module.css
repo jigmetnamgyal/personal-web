@@ -10,13 +10,16 @@
     transform: translate(-50%, -50%);
     width: 100vw;
     height: 100vh;
-    background: url('../../assets/Scattered-Forcefields.svg') no-repeat center;
+    background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
     background-size: contain;
 }
+/* .colorP{
+    color: #ffffff;
+} */
 .bgVid{
     position: absolute;
     top: 50%;
-    background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
+    /* background: url('../../assets/Confetti-Doodles.svg') no-repeat top; */
     left: 50%;
     transform: translate(-75%, -55%);
     width: 40%;
@@ -30,10 +33,12 @@
 }
 .btnContainer{
     position: absolute;
-    top: 23%;
-    left: 58%;
-    width: 300px;
-    height: 300px;
+    display: flex;
+    align-items: center;
+    top: 20%;
+    left: 63.8%;
+    width: 250px;
+    height: 250px;
 }
 .btnContainer > p{
     text-align: center;
@@ -149,14 +154,13 @@
     .bgVid{
         position: absolute;
         top: 53%;
-        background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
         left: 40%;
         transform: translate(-50%, -50%);
         width: 50%;
         height: 35%;
     }
     .btnContainer{
-        top: 28%;
+        top: 30%;
         width: 200px;
         height: 200px;
     }
@@ -178,31 +182,33 @@
     .bgVid{
         position: absolute;
         top: 40%;
-        background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
-        left: 69%;
+        left: 64%;
         transform: translate(-50%, -50%);
-        width: 60%;
+        width: 70%;
         height: 35%;
-        width: 80%;
     }
     .btnContainer{
         position: absolute;
-        top: 60%;
-        left: 30%;
-        width: 220px;
-        height: 220px;
+        top: 56%;
+        left: 35%;
+        width: 180px;
+        height: 180px;
+        display: block;
+    }
+    .lilInfo{
+        font-size: 15px !important;
     }
 }
 
 @media only screen and (max-width: 475px){
     .bgVid{
         top: 40%;
-        left: 62%;
-        width: 80%;
+        left: 58%;
+        width: 70%;
     }
     .btnContainer{
-        top: 62%;
-        left: 24%;
+        top: 60%;
+        left: 30%;
     }
 }
 @media only screen and (max-width: 430px){
@@ -244,6 +250,7 @@
     .lilInfo{
         font-size: 15px !important;
         letter-spacing: 2px !important;
+        
     }
     .j{
         font-size:70px;
@@ -261,7 +268,7 @@
         width: 80%;
     }
     .btnContainer{
-        top: 64%;
+        top: 60%;
         left: 25%;
     }
 }
