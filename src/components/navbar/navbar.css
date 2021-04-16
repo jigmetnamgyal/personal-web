@@ -33,7 +33,7 @@
 }
 .nav-item{
     color: black !important;
-    margin-right: 15px !important;
+    margin-right: 10px !important;
 }
 
 .icons{
@@ -47,16 +47,17 @@
     padding: 15px !important;
     color: #000000 !important;
     font-size: 20px !important;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comic Neue', cursive;
     letter-spacing: 3px;
     margin-top: 5px;
+    font-weight: 600;
 }
 .nav-link{
     color: #000000 !important;
     font-size: 18px;
     margin-top: 5px;
-    font-family: 'Comic Neue', cursive;
-    font-weight: 600;
+    /* font-family: 'Comic Neue', cursive; */
+    font-weight: 300;
 }
 .nav-item:hover > .nav-link, .nav-item:hover > .icons{
     color: #0689a0 !important;

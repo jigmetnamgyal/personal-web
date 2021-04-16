@@ -76,8 +76,8 @@
 }
 .lilInfo{
     font-size:20px !important;
-    letter-spacing: 3px !important;
-    font-family: 'New Tegomin', serif !important;
+    letter-spacing: 4px !important;
+    font-family: 'Comic Neue', cursive;
     line-height: 40px !important;
     animation: anim 1.5s ease-in !important;
 }
@@ -89,7 +89,7 @@
         opacity: 1;
     }
 }
-@media only screen and (max-width: 1030px){
+@media only screen and (max-width: 1170px){
     .bgVid > p{
         font-size: 60px;
         line-height: 90px;
@@ -117,39 +117,48 @@
 }
 @media only screen and (max-width: 1030px){
     .bgVid > p{
-        font-size: 70px;
+        font-size: 60px;
     }
     .lilInfo{
         font-size: 20px !important;
         letter-spacing: 2px !important;
     }
     .j{
-        font-size:100px;
+        font-size:80px;
     }
     
     .n{
-        font-size:100px;
+        font-size:80px;
     }
     .t{
-        font-size:100px;
+        font-size:80px;
     }
     .btnContainer{
         top: 25%;
-        left: 60%;
+        left: 65%;
         width: 250px;
         height: 250px;
     }
 }
-@media only screen and (max-width: 825px){
+@media only screen and (max-width: 893px){
+    .bgVid > p{
+        font-size: 50px;
+        line-height: 60px;
+    }
     .bgVid{
         position: absolute;
-        top: 50%;
+        top: 53%;
         background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
-        left: 50%;
+        left: 40%;
         transform: translate(-50%, -50%);
-        width: 90%;
+        width: 50%;
         height: 35%;
-
+    }
+    .btnContainer{
+        top: 28%;
+        left: 65%;
+        width: 250px;
+        height: 250px;
     }
 }
 @media only screen and (max-width: 645px){
@@ -157,42 +166,43 @@
         font-size: 50px;
     }
     .j{
-        font-size:80px;
+        font-size:70px;
     }
     
     .n{
-        font-size:80px;
+        font-size:70px;
     }
     .t{
-        font-size:80px;
+        font-size:70px;
     }
     .bgVid{
         position: absolute;
-        top: 30%;
+        top: 40%;
         background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
-        left: 55%;
+        left: 68%;
         transform: translate(-50%, -50%);
         width: 60%;
         height: 35%;
-
+        width: 80%;
     }
     .btnContainer{
         position: absolute;
         top: 280px;
-        left: 25%;
+        left: 27%;
         width: 350px;
         height: 350px;
     }
 }
 
-@media only screen and (max-width: 460px){
+@media only screen and (max-width: 475px){
     .bgVid{
-        top: 30%;
-        left: 50%;
+        top: 40%;
+        left: 64%;
+        width: 80%;
     }
     .btnContainer{
         top: 300px;
-        left: 20%;
+        left: 22%;
         width: 350px;
         height: 350px;
     }
@@ -218,7 +228,8 @@
     }
     .bgVid{
         top: 45%;
-        left: 50%;
+        left: 58%;
+        width: 80%;
     }
     .btnContainer{
         top: 350px;
@@ -229,7 +240,7 @@
 }
 @media only screen and (max-width: 393px){
     .bgVid > p{
-        font-size: 50px;
+        font-size: 40px;
         line-height: 60px;
     }
     .lilInfo{
@@ -237,25 +248,26 @@
         letter-spacing: 2px !important;
     }
     .j{
-        font-size:50px;
+        font-size:70px;
     }
     
     .n{
-        font-size:50px;
+        font-size:70px;
     }
     .t{
-        font-size:50px;
+        font-size:70px;
     }
     .bgVid{
-        top: 38%;
-        left: 52%;
-        width: 70%;
+        top: 40%;
+        left: 58%;
+        width: 80%;
     }
     .btnContainer{
-        top: 280px;
-        left: 22%;
+        top: 54%;
+        left: 21%;
         width: 250px;
         height: 250px;
     }
 }
+
 /* color: #d0504b #fce84f */

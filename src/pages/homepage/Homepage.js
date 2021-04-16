@@ -22,7 +22,7 @@ const Homepage = () => {
                         damping: 20
                     }}>
                     <span className={styles.j}>J</span>igme
-                    <span className={styles.t}>T</span>ashi
+                    <span className={styles.t}> T</span>ashi
                     <br/>
                     <span className={styles.n}>N</span>amgyal
                 </motion.p>
