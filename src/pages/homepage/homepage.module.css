@@ -30,10 +30,13 @@
 }
 .btnContainer{
     position: absolute;
-    top: 12%;
+    top: 22%;
     left: 58%;
-    width: 420px;
-    height: 420px;
+    width: 300px;
+    height: 300px;
+}
+.btnContainer > p{
+    text-align: center;
 }
 .btnAbout{
     width: 150px !important;
@@ -60,6 +63,7 @@
     width: 100%;
     height: 100%;
 }
+
 
 .j{
     color: #d0504b;
@@ -109,10 +113,10 @@
         font-size:100px;
     }
     .btnContainer{
-        top: 20%;
-        left: 58%;
-        width: 320px;
-        height: 320px;
+        top: 25.5%;
+        left: 60%;
+        width: 250px;
+        height: 250px;
     }
 }
 @media only screen and (max-width: 1030px){
@@ -133,12 +137,9 @@
     .t{
         font-size:80px;
     }
-    .btnContainer{
-        top: 25%;
-        left: 65%;
-        width: 250px;
-        height: 250px;
-    }
+    /* .btnContainer{
+        top: 25.5%;
+    } */
 }
 @media only screen and (max-width: 893px){
     .bgVid > p{
@@ -156,9 +157,8 @@
     }
     .btnContainer{
         top: 28%;
-        left: 65%;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 }
 @media only screen and (max-width: 645px){
@@ -179,7 +179,7 @@
         position: absolute;
         top: 40%;
         background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
-        left: 68%;
+        left: 69%;
         transform: translate(-50%, -50%);
         width: 60%;
         height: 35%;
@@ -187,24 +187,22 @@
     }
     .btnContainer{
         position: absolute;
-        top: 280px;
-        left: 27%;
-        width: 350px;
-        height: 350px;
+        top: 60%;
+        left: 30%;
+        width: 220px;
+        height: 220px;
     }
 }
 
 @media only screen and (max-width: 475px){
     .bgVid{
         top: 40%;
-        left: 64%;
+        left: 62%;
         width: 80%;
     }
     .btnContainer{
-        top: 300px;
-        left: 22%;
-        width: 350px;
-        height: 350px;
+        top: 62%;
+        left: 24%;
     }
 }
 @media only screen and (max-width: 430px){
@@ -227,15 +225,15 @@
         font-size:50px;
     }
     .bgVid{
-        top: 45%;
+        top: 42%;
         left: 58%;
         width: 80%;
     }
     .btnContainer{
-        top: 350px;
+        top: 64%;
         left: 25%;
-        width: 250px;
-        height: 250px;
+        width: 170px;
+        height: 170px;
     }
 }
 @media only screen and (max-width: 393px){
@@ -258,15 +256,13 @@
         font-size:70px;
     }
     .bgVid{
-        top: 40%;
+        top: 38%;
         left: 58%;
         width: 80%;
     }
     .btnContainer{
-        top: 54%;
-        left: 21%;
-        width: 250px;
-        height: 250px;
+        top: 64%;
+        left: 25%;
     }
 }
 

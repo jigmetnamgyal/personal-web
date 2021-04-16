@@ -1,5 +1,6 @@
 import styles from './homepage.module.css';
 import me from '../../assets/me.svg';
+import rich from '../../assets/rich.jpeg';
 import {motion} from "framer-motion"
 
 const Homepage = () => {
@@ -29,12 +30,8 @@ const Homepage = () => {
                 <p className={styles.lilInfo}>Nincompoop Since 2001</p>
             </div>
             <div className={styles.btnContainer}>
-                {/*  <Button className={styles.btnAbout} variant="outline-warning"><Link to="/abo
- *  utMe">Explore</Link></Button>
-
- */
-                }
-                <img className={styles.mePic} src={me} alt="This is me"/>
+                <img className={styles.mePic} src={rich} alt="This is me"/>
+                <p><b>Currently reading.</b></p>
             </div>
         </div>
     )
