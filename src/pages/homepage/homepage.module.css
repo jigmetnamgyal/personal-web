@@ -26,7 +26,7 @@
     font-size: 90px;
     font-family: 'Bebas Neue', cursive;
     line-height: 100px;
-    letter-spacing: 5px
+    letter-spacing: 7px
 }
 .btnContainer{
     position: absolute;
@@ -76,9 +76,18 @@
 }
 .lilInfo{
     font-size:20px !important;
-    letter-spacing: 5px !important;
+    letter-spacing: 3px !important;
     font-family: 'New Tegomin', serif !important;
     line-height: 40px !important;
+    animation: anim 1.5s ease-in !important;
+}
+@keyframes anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 @media only screen and (max-width: 1030px){
     .bgVid > p{

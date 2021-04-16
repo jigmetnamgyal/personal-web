@@ -6,6 +6,7 @@ import {ImBlog} from 'react-icons/im';
 import {AiFillProject, AiOutlineMenu} from 'react-icons/ai';
 import {Nav, Navbar} from 'react-bootstrap'
 import './navbar.css';
+import {motion} from 'framer-motion';
 
 const NavigationBar = () => {
     return (
@@ -21,41 +22,37 @@ const NavigationBar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <div className="another"></div>
                 <Nav className="mr-auto navRight">
-                    <div className="hori-selector">
-                        <div className="left"></div>
-                        <div className="right"></div>
-                    </div>
-                    <li className="nav-item active">
+                    <motion.li whileHover={{ scale: 1.05}} className="nav-item active">
                         <NavLink className="nav-link" to='/' exact>
                             <GoHome className="icons" /> Home
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
+                    </motion.li>
+                    <motion.li whileHover={{scale:1.05 }} className="nav-item">
                         <NavLink className="nav-link" to='/aboutMe' exact>
                             <MdPersonPin className="icons" /> About Me
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
+                    </motion.li>
+                    <motion.li whileHover={{scale:1.05 }} className="nav-item">
                         <NavLink className="nav-link" to='/bookShelf' exact>
                             <GiBookshelf className="icons" /> Bookshelf
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
+                    </motion.li>
+                    <motion.li whileHover={{scale:1.05 }} className="nav-item">
                         <NavLink className="nav-link" to='/books' exact>
                             <MdRateReview className="icons" /> Books Review
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
+                    </motion.li>
+                    <motion.li whileHover={{scale:1.05 }} className="nav-item">
                         <NavLink className="nav-link" to='/blog' exact>
                             <ImBlog className="icons" /> Blog
                         </NavLink>
-                    </li>
+                    </motion.li>
 
-                    <li className="nav-item">
+                    <motion.li whileHover={{scale:1.05 }} className="nav-item">
                         <NavLink className="nav-link" to='/projects' exact>
                             <AiFillProject className="icons" /> projects
                         </NavLink>
-                    </li>
+                    </motion.li>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
