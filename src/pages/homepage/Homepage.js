@@ -1,6 +1,4 @@
 import styles from './homepage.module.css';
-import {Button} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
 import me from '../../assets/me.svg';
 
 const Homepage = () => {

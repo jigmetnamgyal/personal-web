@@ -18,7 +18,7 @@
     top: 50%;
     background: url('../../assets/Confetti-Doodles.svg') no-repeat top;
     left: 50%;
-    transform: translate(-70%, -55%);
+    transform: translate(-75%, -55%);
     width: 40%;
     height: 35%;
 }
@@ -30,10 +30,10 @@
 }
 .btnContainer{
     position: absolute;
-    top: 2%;
-    left: 54.5%;
-    width: 500px;
-    height: 500px;
+    top: 12%;
+    left: 58%;
+    width: 420px;
+    height: 420px;
 }
 .btnAbout{
     width: 150px !important;

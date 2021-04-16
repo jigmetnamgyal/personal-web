@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom';
 import {GoHome} from 'react-icons/go'
-import {MdPersonPin} from 'react-icons/md';
+import {MdPersonPin,MdRateReview} from 'react-icons/md';
 import {GiBookshelf} from 'react-icons/gi';
 import {ImBlog} from 'react-icons/im';
 import {AiFillProject, AiOutlineMenu} from 'react-icons/ai';
@@ -36,8 +36,13 @@ const NavigationBar = () => {
                         </NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink className="nav-link" to='/bookShelf' exact>
+                            <GiBookshelf className="icons" /> Bookshelf
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
                         <NavLink className="nav-link" to='/books' exact>
-                            <GiBookshelf className="icons" /> Books
+                            <MdRateReview className="icons" /> Books Review
                         </NavLink>
                     </li>
                     <li className="nav-item">
