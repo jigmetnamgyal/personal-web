@@ -31,7 +31,7 @@ const Homepage = () => {
             </div>
             <div className={styles.btnContainer}>
                 <img className={styles.mePic} src={rich} alt="This is me"/>
-                <p><b>Currently reading.</b></p>
+                <p><i>Currently reading.</i></p>
             </div>
         </div>
     )

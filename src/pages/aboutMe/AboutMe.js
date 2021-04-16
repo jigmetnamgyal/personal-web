@@ -52,7 +52,7 @@ const AboutMe = () => {
                <CardMedia className={classes.media} image={me} title="JigmeTN"/>
                 <CardContent>
                     <Typography variant="body2" color="textPrimary" component="p">
-                    My name is Jigme Tashi Namgyal and I am from Trashigang, Bhutan. I am currently pursuing my education in Bs. Computer Science in ADA University in Baku, Azerbaijan. Due to the covid situation I decided to take a gap year and while I am at it, I am trying to skill up as college is not enough to excel in life. 
+                    My name is Jigme Tashi Namgyal and I am from Trashigang, Bhutan. I am currently pursuing my education in Bs. Computer Science in ADA University in Baku, Azerbaijan. Due to the covid situation I decided to take a gap year and while I am at it, I am trying to skill up.
                     <br />
                     <br />
                     Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.
