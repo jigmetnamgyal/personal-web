@@ -55,6 +55,7 @@ const NavigationBar = () => {
                     </motion.li>
                 </Nav>
             </Navbar.Collapse>
+            
         </Navbar>
     )
 }

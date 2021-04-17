@@ -1,30 +1,27 @@
 .homepageContainer{
     position: relative;
     width: 100vw;
-    height: 75vh;
-    
+    height: 88vh;
+    display: flex;
+    justify-content:center;
+    background: url('../../assets/Flat-Mountains.svg') no-repeat top;
+    background-size: cover;
+    align-items: center;
 }
-.bgImg{
+/* .bgImg{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100vw;
-    height: 100vh;
-    background: url('../../assets/shape.svg') no-repeat center;
-    background-size: contain;
-}
+    width: 100%;
+    height: 87vh;
+    background: url('../../assets/shape.svg') center no-repeat;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+} */
 .colorP{
     color: #000000;
 }
 .bgVid{
-    position: absolute;
-    top: 48%;
-    background: transparent;
-    left: 42%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: 35%;
+    flex: 0.55;
 }
 .bgVid > p{
     font-size: 60px;
@@ -34,12 +31,9 @@
     color: #000000;
 }
 .btnContainer{
-    position: absolute;
-    top: 50%;
-    left: 69%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 230px;
+    margin-bottom: 160px;
 }
 .btnContainer > p{
     text-align: center;
@@ -84,11 +78,10 @@
     font-size:90px;
 }
 .lilInfo{
-    /* background-color: greenyellow; */
     font-size:20px !important;
     letter-spacing: 2px !important;
     line-height: 40px !important;
-    animation: anim 1.5s ease-in !important;
+    animation: anim 1.5s ease-in;
 }
 @keyframes anim{
     from{
@@ -98,161 +91,109 @@
         opacity: 1;
     }
 }
-@media only screen and (max-width: 1170px){
+@media only screen and (max-width: 1106px){
+    .homepageContainer{
+        background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+    }
     .bgVid > p{
         font-size: 40px;
     }
     .j{
-        color: #d0504b;
         font-size:70px;
     }
     
     .n{
-        color: #d0504b;
         font-size:70px;
     }
     .t{
-        color: #fce84f;
         font-size:70px;
     }
     .lilInfo{
-        font-size:18px !important;
-    }
-    .btnContainer{
-        left: 72%;
-        width: 180px;
-        height: 200px;
-    }
-}
-
-@media only screen and (max-width: 935px){
-    .bgVid{
-        position: absolute;
-        top: 53%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        width: 50%;
-        height: 35%;
-    }
-    .btnContainer{
-        top: 55%;
-        left: 78%;
-    }
-    .bgImg{
-        background: url('../../assets/shape.svg') no-repeat center;
-        background-size: contain;
-    }
-}
-@media only screen and (max-width: 745px){
-    .bgVid > p{
-        font-size: 60px;
-        letter-spacing: 10px;
-    }
-    .lilInfo{
-        font-size: 20px !important;
+        font-size:15px !important;
     }
     .bgVid{
-        position: absolute;
-        top: 30%;
-        left: 56%;
-        transform: translate(-50%, -50%);
-        width: 70%;
-        height: 35%;
+        flex: 0.5;
+        padding-right: 50px !important;
     }
     .btnContainer{
-        top: 78%;
-        left: 48%;
-        width: 180px;
-        height: 180px;
-        display: block;
-    }
-    .lilInfo{
-        font-size: 15px !important;
+        width: 160px;
+        height: 210px;
+        margin-bottom: 50px;
     }
 }
-
-@media only screen and (max-width: 577px){
+@media only screen and (max-width: 950px){
     .bgVid{
-        position: absolute;
-        top: 30%;
-        left: 50%;
+        flex: 0.65;
+        padding-right: 0px !important;
     }
     .btnContainer{
-        top: 78%;
-        left: 45%;
-    }
-}
-@media only screen and (max-width: 557px){
-    .bgVid > p{
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
-    .lilInfo{
-        font-size: 15px !important;
-    }
-    .bgVid{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-    }
-    .btnContainer{
-        top: 78%;
-        left: 45%;
-    }
-}
-@media only screen and (max-width: 464px){
-    .bgVid > p{
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
-    .lilInfo{
-        font-size: 15px !important;
-    }
-    .bgVid{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-    }
-    .btnContainer{
-        top: 80%;
-        left: 45%;
-    }
-}
-@media only screen and (max-width: 396px){
-    .bgVid > p{
-        font-size: 30px;
-        letter-spacing: 5px;
-    }
-    .lilInfo{
-        font-size: 10px !important;
-    }
-    .j{
-        color: #d0504b;
-        font-size:60px;
-    }
-    
-    .n{
-        color: #d0504b;
-        font-size:60px;
-    }
-    .t{
-        color: #fce84f;
-        font-size:60px;
-    }
-    .bgVid{
-        position: absolute;
-        top: 27%;
-        left: 50%;
-    }
-    .btnContainer{
-        top: 73%;
-        left: 45%;
         width: 150px;
-        height: 150px;
+        height: 180px;
+    }
+    .homepageContainer{
+        background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+     }
+}
+@media only screen and (max-width: 685px){
+    .bgVid{
+        flex: 0.51 !important;
+        padding-right: 0px !important;
+        margin-top: -100px;
+    }
+    .homepageContainer{
+       flex-direction: column;
+       background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+    }
+    .bgVid > p{
+       text-align: center;
+       font-size: 30px;
+       line-height: 50px;
+    }
+    .j{
+        font-size:50px;
+    }
+    
+    .n{
+        font-size:50px;
+    }
+    .t{
+        font-size:50px;
+    }
+    .lilInfo{
+        font-size:15px !important;
+        line-height: 30px !important;
+    }
+    .btnContainer{
+       margin-top: -150px;
+       width: 120px;
+       height: 150px;
+       margin-bottom: 0;
     }
     .colorP{
         font-size: 12px;
     }
 }
-
-/* color: #d0504b #fce84f */
+@media only screen and (max-width: 320px){
+    .bgVid{
+        flex: 0.6 !important;
+    }
+    .bgVid > p{
+       text-align: center;
+       font-size: 20px;
+       line-height: 50px;
+    }
+    .j{
+        font-size:40px;
+    }
+    
+    .n{
+        font-size:40px;
+    }
+    .t{
+        font-size:40px;
+    }
+    .lilInfo{
+        font-size:10px !important;
+    }
+    
+}

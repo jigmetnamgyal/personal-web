@@ -2,8 +2,10 @@
 .navbar{
     width: 100vw !important;
     z-index: 100 !important;
-    padding-top: 30px !important;
-    background-color: white;
+    margin: 0 !important;
+    padding: 20px !important;
+    /* border-bottom: 1px solid gray; */
+    background-color: white !important;
 }
 .another{
     flex: 1 !important;
@@ -61,4 +63,11 @@
 .nav-item:hover > .nav-link, .nav-item:hover > .icons{
     color: #0689a0 !important;
     transition: all 0.1s !important;
+}
+@media only screen and (max-width: 685px){
+    .navbar-logo{
+        padding: 15px 0 !important;
+        font-size: 15px !important;
+        letter-spacing: 2px;
+    }
 }
