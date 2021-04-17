@@ -23,14 +23,14 @@
 }
 .bgVid{
     flex: 0.5;
-    margin-top: -45px;
+    margin-top: -70px;
 }
 .bgVid > p{
     font-size: 60px;
     font-family: 'Bebas Neue', cursive;
     line-height: 80px;
     letter-spacing: 6px;
-    color: #a1a9b0;
+    color: #000000;
 }
 .btnContainer{
     width: 180px;
@@ -67,16 +67,16 @@
 }
 
 .j{
-    color: #d0504b;
+    /* color: #d0504b; */
     font-size:90px;
 }
 
 .n{
-    color: #000000;
+    /* color: #000000; */
     font-size:90px;
 }
 .t{
-    color: #000000;
+    /* color: #000000; */
     font-size:90px;
 }
 .lilInfo{
@@ -84,7 +84,7 @@
     letter-spacing: 2px !important;
     line-height: 40px !important;
     animation: anim 1.5s ease-in;
-    color: #000000 !important;
+    color: gray !important;
 }
 @keyframes anim{
     from{
