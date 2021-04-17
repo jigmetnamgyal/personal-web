@@ -1,0 +1,13 @@
+.headerAbout{
+    background-color: #efefef;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.contentHeader{
+    margin:50px 0;
+    font-size: 32px;
+    font-family: 'Shadows Into Light', cursive;
+}
