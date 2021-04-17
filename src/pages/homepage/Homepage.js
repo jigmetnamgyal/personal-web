@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 const Homepage = () => {
     return (
         <div className={styles.homepageContainer}>
-            {/* <div className={styles.bgImg}></div> */}
+            <div className={styles.bgImg}></div>
             <div className={styles.bgVid}>
                 <motion.p
                     initial={{
