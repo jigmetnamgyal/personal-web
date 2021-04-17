@@ -1,6 +1,6 @@
 import styles from './homepage.module.css';
 // import me from '../../assets/me.svg';
-import rich from '../../assets/rich.png';
+import rich from '../../assets/rich.jpeg';
 import {motion} from "framer-motion"
 
 const Homepage = () => {

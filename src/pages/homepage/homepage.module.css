@@ -21,7 +21,8 @@
     color: #000000;
 }
 .bgVid{
-    flex: 0.55;
+    flex: 0.5;
+    margin-top: -40px;
 }
 .bgVid > p{
     font-size: 60px;
@@ -114,6 +115,7 @@
     .bgVid{
         flex: 0.5;
         padding-right: 50px !important;
+        margin-top: 0px;
     }
     .btnContainer{
         width: 160px;
