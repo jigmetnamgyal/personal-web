@@ -33,6 +33,10 @@ const fadeInUp = {
 };
 const About = () => {
     return (
+        <>
+        <div className={styles.headerAbout}>
+        <motion.p variants={fadeInUp} className={styles.contentHeader}>About Me</motion.p>
+    </div>
         <motion.div
             initial='initial'
             animate='animate'
@@ -41,6 +45,7 @@ const About = () => {
             }}
             className={styles.about__container}>
             <div className={styles.about__imgHolder}>
+           
                 <motion.img
                     animate={{
                         x: 0,
@@ -62,7 +67,6 @@ const About = () => {
             </div>
             <div className={styles.about__contentHolder}>
                 <motion.div variants={stagger} className={styles.content}>
-                    <motion.p variants={fadeInUp} className={styles.contentHeader}>About Me</motion.p>
                     <motion.p variants={fadeInUp} className={styles.contentContent}>
                         My name is Jigme Tashi Namgyal and I am from Trashigang, Bhutan. I am currently
                         pursuing my education in Bs. Computer Science in ADA University in Baku,
@@ -119,6 +123,7 @@ const About = () => {
                 </motion.div>
             </div>
         </motion.div>
+        </>
     )
 }
 export default About
