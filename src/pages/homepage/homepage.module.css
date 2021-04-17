@@ -22,14 +22,14 @@
 }
 .bgVid{
     flex: 0.5;
-    margin-top: -40px;
+    margin-top: -45px;
 }
 .bgVid > p{
     font-size: 60px;
     font-family: 'Bebas Neue', cursive;
     line-height: 80px;
     letter-spacing: 6px;
-    color: #000000;
+    color: #a1a9b0;
 }
 .btnContainer{
     width: 180px;
@@ -71,11 +71,11 @@
 }
 
 .n{
-    color: #d0504b;
+    color: #000000;
     font-size:90px;
 }
 .t{
-    color: #fce84f;
+    color: #000000;
     font-size:90px;
 }
 .lilInfo{
@@ -83,6 +83,7 @@
     letter-spacing: 2px !important;
     line-height: 40px !important;
     animation: anim 1.5s ease-in;
+    color: #000000 !important;
 }
 @keyframes anim{
     from{

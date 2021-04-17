@@ -29,7 +29,7 @@ const Homepage = () => {
                     <span className={styles.t}> A</span>re
                     <span className={styles.t}> H</span>ere
                 </motion.p>
-                <p className={styles.lilInfo}>My Name is Jigme Tashi Namgyal. A Programmer, <br /> trouble maker and a goof since 2001 </p>
+                <p className={styles.lilInfo}>Welcome! I am Jigme Tashi Namgyal. A Programmer, <br /> trouble maker and a goof since 2001 </p>
             </div>
             <div className={styles.btnContainer}>
                 <img className={styles.mePic} src={rich} alt="This is me"/>
