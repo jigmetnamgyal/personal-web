@@ -6,7 +6,10 @@ const Bookshelf = () => {
              <div className={styles.headerAbout}>
                 <p className={styles.contentHeader}>Bookshelf</p>
              </div>
-             
+             <div className={styles.bookshelfMainContent}>
+                 <div className={styles.booksList}></div>
+                 <div className={styles.popularPost}></div>
+             </div>
         </div>
     )
 }
