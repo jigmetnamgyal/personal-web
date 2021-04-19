@@ -77,11 +77,13 @@
 }
 .infoBook{
     line-height: 25px;
+    margin-top: 15px;
 }
 .btnRead{
     background-color: #da6c6c !important;
     color: white !important;
     width: 25%;
+    margin-top: 15px !important;
 }
 .infoBookHolder > a{
     text-decoration: none !important;
