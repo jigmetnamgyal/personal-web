@@ -124,6 +124,37 @@
     width: 100%;
     background-color: paleturquoise;
 }
+.paginationBttns {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border: 1px solid #da6c6c;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #da6c6c;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #da6c6c;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: rgb(235, 235, 235);
+  }
 @media only screen and (max-width: 1098px){
     .bookshelfMainContent{
         flex-direction: column;
