@@ -1,7 +1,6 @@
 import styles from './book.module.css';
 import {useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import Pagination from '@material-ui/lab/Pagination';
 import {bookshelfData} from './bookshelfData';
 import Rating from '@material-ui/lab/Rating';
 import {Button} from '@material-ui/core'
