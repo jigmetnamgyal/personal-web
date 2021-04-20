@@ -32,9 +32,7 @@ const Bookshelf = () => {
     const changePage = ({selected}) => {
         setPageNumber(selected);
     }
-    // const changePage = (event, page) => {
-    //     setPageNumber(page);
-    // }
+
     const displayBooks = books.slice(pagesVisited, pagesVisited + booksPerPage).map(
         (data) => (
             <div key={data.id} className={styles.bookListMainContent}>
