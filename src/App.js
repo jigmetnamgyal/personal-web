@@ -4,6 +4,7 @@ import NavBar from './components/navbar/Navbar';
 import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
+import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
 
 function App() {
    
@@ -12,10 +13,11 @@ function App() {
             <div className="App">
                 <NavBar />
                 <Switch>
-                    <Route exact="exact" path="/" component={Homepage}/>
-                    <Route exact="exact" path="/aboutMe" component={About}/>
-                    <Route exact="exact" path="/bookShelf" component={Bookshelf}/>
-                    <Route exact="exact" path="/projects" component={Projects}/>
+                    <Route exact path="/" component={Homepage}/>
+                    <Route path="/aboutMe" component={About}/>
+                    <Route path="/bookShelf" component={Bookshelf}/>
+                    <Route exact path="/projects" component={Projects}/>
+                    <Route path="/projects/:projectId" component={IndividualProjects}/>
                 </Switch>
             </div>
         </Router>
