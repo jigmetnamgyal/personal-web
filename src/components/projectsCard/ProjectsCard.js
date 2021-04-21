@@ -1,6 +1,5 @@
 import styles from './projectsCard.module.css';
 import Chip from '@material-ui/core/Chip';
-import Paper from '@material-ui/core/Paper';
 import {GrProjects} from 'react-icons/gr';
 import {useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
