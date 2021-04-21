@@ -6,7 +6,6 @@ import Rating from '@material-ui/lab/Rating';
 import {Button} from '@material-ui/core'
 import {Link} from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
-
 const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
