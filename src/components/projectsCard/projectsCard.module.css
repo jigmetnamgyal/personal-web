@@ -1,0 +1,38 @@
+.projectsCardContainer{
+    position: relative;
+    width: 400px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 550px;
+    border: 2px solid #da6c6c;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.projectsInfo{
+    color: gray;
+    font-size: 12px;
+}
+.footerOfBtn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardImgHolder{
+    width: 100%;
+    margin: 30px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgOfThumbnail{
+    width: 80%;
+    height: 50%;
+}
