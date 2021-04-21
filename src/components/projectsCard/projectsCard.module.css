@@ -8,6 +8,10 @@
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.projectsCardContainer:hover{
+    box-shadow: #da6c6c7a  0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, #da6c6cce 0px 1px 0px inset;
 }
 .projectsInfo{
     color: gray;
