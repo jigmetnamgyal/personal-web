@@ -5,7 +5,10 @@ import {motion} from "framer-motion"
 
 const Homepage = () => {
     return (
+        <>
+        <div className={styles.bgImg}></div>
         <div className={styles.homepageContainer}>
+           
             <div className={styles.bgVid}>
                 <motion.p
                     initial={{
@@ -35,6 +38,7 @@ const Homepage = () => {
                 <p className={styles.colorP}><i>Currently reading.</i></p>
             </div>
         </div>
+        </>
     )
 }
 
