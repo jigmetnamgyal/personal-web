@@ -271,6 +271,7 @@ main {
   height: 600px;
   .container {
     .row {
+    display: flex;
       width: 100%;
       justify-content: center;
     //   align-items: center;
@@ -286,7 +287,7 @@ main {
         font-size: 16;
         line-height: 28px;
         font-weight: 400;
-        width: 800px;
+        width: 100%;
       }
     }
   }

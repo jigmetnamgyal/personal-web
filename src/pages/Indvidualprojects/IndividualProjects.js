@@ -154,7 +154,14 @@ const IndividualProjects = (props) => {
                       
                            {project && <p>{project.projectsInfo}</p>}
                     </div>
+                    <div className='row soso'>
+                        <h2 className='title'>
+                            Achievements
+                        </h2>
+                      
+                    </div>
                 </div>
+                
             </div>
         </motion.div>
     )
