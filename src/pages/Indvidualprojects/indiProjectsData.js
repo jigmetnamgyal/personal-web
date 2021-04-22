@@ -12,15 +12,7 @@ export const indiProjectsData = [
     {
         "id":0,
         "projectName": "ArExp",
-        "thumbnail": arexp,
-        "heart": frontImg,
-        "car": heartImg,
-        "one": one,
-        "two": two,
-        "three": three,
-        "four":four,
-        "five": five,
-        "six": six,
+        "images": [arexp, frontImg, heartImg, one, two, three, four, five, six]
     },
     {
         name: "lol"

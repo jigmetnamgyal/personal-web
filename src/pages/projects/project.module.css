@@ -9,6 +9,9 @@
     font-size: 32px;
     font-family: 'Shadows Into Light', cursive;
 }
+a:hover{
+    text-decoration: none !important;
+}
 .headerAbout{
     background-color: #efefef;
     width: 100vw;

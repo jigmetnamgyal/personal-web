@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
       flexDirection: 'column',
+      zIndex: "2000",
       '& > * + *': {
         marginTop: theme.spacing(1),
       },

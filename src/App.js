@@ -5,6 +5,8 @@ import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
+import './App.scss';
+
 
 function App() {
    
@@ -12,13 +14,14 @@ function App() {
         <Router>
             <div className="App">
                 <NavBar />
-                <Switch>
-                    <Route exact path="/" component={Homepage}/>
-                    <Route path="/aboutMe" component={About}/>
-                    <Route path="/bookShelf" component={Bookshelf}/>
-                    <Route exact path="/projects" component={Projects}/>
-                    <Route path="/projects/:projectId" component={IndividualProjects}/>
-                </Switch>
+
+                    <Switch>
+                        <Route exact path="/" component={Homepage}/>
+                        <Route path="/aboutMe" component={About}/>
+                        <Route path="/bookShelf" component={Bookshelf}/>
+                        <Route exact path="/projects" component={Projects}/>
+                        <Route path="/projects/:projectId" component={IndividualProjects}/>
+                    </Switch>
             </div>
         </Router>
     );
