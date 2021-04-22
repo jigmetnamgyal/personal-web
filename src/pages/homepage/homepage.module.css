@@ -1,12 +1,13 @@
 .homepageContainer{
     position: relative;
     width: 100vw;
-    height: 88vh;
+    height: 720px;
     display: flex;
     justify-content:center;
     background: url('../../assets/Flat-Mountains.svg') no-repeat top;
     background-size: cover;
     align-items: center;
+    background-color: white;
 }
 .bgImg{
     position: absolute;
@@ -35,7 +36,7 @@
 .btnContainer{
     width: 180px;
     height: 230px;
-    margin-bottom: 160px;
+    margin-bottom: 250px;
 }
 .btnContainer > p{
     text-align: center;
@@ -94,6 +95,7 @@
         opacity: 1;
     }
 }
+/* @media only screen and (max-width: 1106px){ */
 @media only screen and (max-width: 1106px){
     .homepageContainer{
         background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
@@ -136,6 +138,7 @@
     }
     .homepageContainer{
         background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+        height: 720px;
      }
 }
 @media only screen and (max-width: 685px){
@@ -147,6 +150,7 @@
     .homepageContainer{
        flex-direction: column;
        background: url('../../assets/Flat-Mountains.svg') no-repeat bottom;
+       /* height: 500px; */
     }
     .bgVid > p{
        text-align: center;
