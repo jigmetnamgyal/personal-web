@@ -4,7 +4,7 @@ import {GrProjects} from 'react-icons/gr';
 import {useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
-import {AnimatePresence, motion, useViewportScroll, useTransform} from "framer-motion";
+import {AnimatePresence, motion} from "framer-motion";
 
 // import ProgressiveImage from "react-progressive-image"; first load compressd
 // version of image and then cool pixelated one -- will use in the future
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const ProjectsCard = ({difficulties, title, description, tags, image, link}) => {
+const ProjectsCard = ({difficulties, title, description, tags, image, link,team}) => {
     const classes = useStyles();
     const [chipData, setChipData] = useState(tags);
     return (
@@ -94,7 +94,7 @@ const ProjectsCard = ({difficulties, title, description, tags, image, link}) => 
                     }}
                     transition={transition}
                     className={styles.footerOfBtn}>
-                    <p>Jigme T Namgyal</p>
+                    <p>{team}</p>
                     <Link to={link}>
                         <p>View Projects</p>
                     </Link>

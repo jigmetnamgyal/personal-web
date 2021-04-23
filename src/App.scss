@@ -15,6 +15,7 @@ body {
   margin: 0;
   background-color: $main;
   color: $black;
+  overflow-x: hidden;
   &:before {
     animation: grain 8s steps(10) infinite;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png");
@@ -25,6 +26,7 @@ body {
     position: fixed;
     top: -100%;
     width: 300%;
+   
   }
  
 }
@@ -141,6 +143,8 @@ main {
       align-items: center;
       .image-container {
         position: relative;
+        background-color: #1e1f13;
+        width: 100%;
         .thumbnail {
           overflow: hidden;
           position: relative;
@@ -178,32 +182,47 @@ main {
       margin-bottom: 20px;
       margin-top: 0px;
       align-items: flex-end;
+      @media (max-width: 790px) {
+        height: 10vh;
+        margin-top: 250px;
+      }
       .top {
         padding-bottom: 40px;
         .details {
           display: flex;
           align-items: top;
+          justify-content: center;
           margin-top: 50px;
           font-family: 'Courier New', Courier, monospace;
-          justify-content: space-between;
           .location {
-            margin-top: -100px;
+            margin-top: -140px;
+            margin-left: 100px;
             color: gray;
-            
+            @media (max-width: 790px) {
+              margin-top: -150px;
+              font-size: 12px;
+              margin-right: 20px;
+              margin-left: 20px;
+            }
             span:nth-child(2) {
               margin-left: 16px;
             }
           }
-          .mua {
-            margin-top: -100px;
-            color: gray;
-          }
         }
         .model {
           overflow: hidden;
-          margin-top: -300px;
+          margin-top: -250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+         
           .first {
-            margin-right: 72px;
+            margin-right: 40px;
+            @media (max-width: 790px) {
+              margin-right: 20px;
+              margin-left: 20px;
+            }
           }
           span {
             display: inline-block;
@@ -212,33 +231,51 @@ main {
             font-size: 224px;
             font-family: "Maragsa";
             @media (max-width: 1440px) {
-              font-size: 128px;
+              font-size: 100px;
+            }
+            @media (max-width: 790px) {
+              font-size: 40px;
             }
           }
         }
       }
     }
     .bottom-row {
-      height: 50vh;
+      height: 370px;
       width: 100%;
       position: relative;
       .bottom {
         height: 100%;
         width: 100%;
+        margin-top: -50px;
+        @media (max-width: 790px) {
+          margin-top: -240px;
+          height: 270px;
+        }
         .thumbnail-single {
           width: 100%;
           height: 800px;
           margin: 0 auto;
-          overflow: hidden;
+          overflow: visible;
           position: absolute;
           left: 0;
           right: 0;
+          @media (max-width: 790px) {
+            height: 600px;
+          }
           .frame-single {
+            width:100%;
             display: flex;
             justify-content: center;
             img {
               position: absolute;
               width: 100%;
+            }
+            @media (max-width: 790px) {
+              img {
+                position: absolute;
+                width: 600px;
+              }
             }
           }
         }
@@ -269,16 +306,21 @@ main {
 .detailed-information {
   margin-top: 200px;
   height: 600px;
+  @media (max-width: 790px) {
+    margin-top: 150px;
+  }
   .container {
     .row {
-    display: flex;
+      display: flex;
       width: 100%;
-      justify-content: center;
-    //   align-items: center;
-    text-align: center;
+      padding-left: 20px;
+      text-align: center;
       flex-direction: column;
+      @media (max-width: 790px) {
+        font-size: 12px;
+      }
       h2 {
-        font-size: 28px;
+        font-size: 18px;
         flex: 1;
         margin-bottom: 20px;
       }

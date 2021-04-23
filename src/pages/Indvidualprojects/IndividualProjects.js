@@ -50,7 +50,7 @@ const IndividualProjects = (props) => {
     const {scrollYProgress} = useViewportScroll();
     const scale = useTransform(scrollYProgress, [
         0, 1
-    ], [0.7 ,1.2]);
+    ], [0.6 ,1.2]);
     const [id, setId] = useState(null);
     useEffect(() => {
         let id = props.match.params.projectId;
@@ -63,6 +63,7 @@ const IndividualProjects = (props) => {
             <div className='container fluid'>
                 <div className='row center top-row'>
                     <div className='top'>
+                   
                         <motion.div
                             initial={{
                                 opacity: 0,
@@ -77,10 +78,6 @@ const IndividualProjects = (props) => {
                                 }
                             }}
                             className='details'>
-                            <div className='location'>
-                                {project && <span>{project.type}</span>}
-                            </div>
-                            {project && <div className='mua'>{project.founder}</div>}
                         </motion.div>
                         <motion.div className='model'>
                             <motion.span variants={firstName1} className='first'>
@@ -112,7 +109,7 @@ const IndividualProjects = (props) => {
                                 }}
                                 animate={{
                                     y: "-30%",
-                                    width: '50%',
+                                    width: '60%',
                                     height: window.innerHeight > 1440
                                         ? 900
                                         : 700,
@@ -128,7 +125,7 @@ const IndividualProjects = (props) => {
                                         project && (
                                             <motion.img
                                                 initial={{
-                                                    scale: 0.7,
+                                                    scale: 0.6,
                                                 }}
                                                 style={{scale: scale}}
                                                 className="projectsImg"
@@ -145,7 +142,7 @@ const IndividualProjects = (props) => {
             </div>
             <div className='detailed-information'>
                 <div className='container'>
-                    <div className='row soso'>
+                    <div className='row'>
                         <h2 className='title'>
                             The insiration behind the Projects &
                             <br/>

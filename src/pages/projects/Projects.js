@@ -14,7 +14,8 @@ const Projects = () => {
                 description={data.SmallInfo}
                 tags={data.projectsTag}
                 image={data.thumbnail}
-                link={`/projects/${data.id}`}/>
+                link={`/projects/${data.id}`}
+                team={data.team}/>
     ))
     return (
         
