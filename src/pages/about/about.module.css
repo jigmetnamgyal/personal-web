@@ -4,7 +4,7 @@
     width: 100vw;
     height: auto;
     padding: 0px 20px;
-    z-index: 100;
+   
 }
 .about__contentHolder{
     display: flex;
@@ -12,6 +12,7 @@
     align-items: center;
     /* background-color: orange; */
     flex-direction: column;
+    z-index: 2000;
 }
 .headerAbout{
     background-color: #efefef;
@@ -26,6 +27,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    z-index: 2000;
     /* background-color: rebeccapurple; */
 }
 .about__contentHolder{
