@@ -26,8 +26,10 @@
     .certHolder{
         display: flex;
         flex-direction: column;
+        
     } 
     .certImgHolder{
         margin-bottom: 50px;
+        padding-right: 0;
     }
 }
