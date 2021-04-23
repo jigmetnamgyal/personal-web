@@ -151,11 +151,26 @@ const IndividualProjects = (props) => {
                       
                            {project && <p>{project.projectsInfo}</p>}
                     </div>
-                    <div className='row soso'>
+                    <div className='row '>
                         <h2 className='title'>
                             Achievements
                         </h2>
-                      
+                            <div className='certHolder'>
+                                <div className="certImgHolder">
+                                    {project ? <img className="certAwardPic" src={project.awardImgs[0]} alt="1"/> : <p>No Awards</p>}
+                                </div>
+                                <div className="certInfo">
+                                    { project ? <p className="infoCert">{project.certInfo[0]}</p>: <p></p>}
+                                </div>
+                            </div>  
+                            <div className='certHolder'>
+                                <div className="certImgHolder">
+                                {project ? <img className="certAwardPic" src={project.awardImgs[1]} alt="2"/> : <p>No Awards</p>}
+                                </div>
+                                <div className="certInfo">
+                                { project ? <p className="infoCert">{project.certInfo[1]}</p>: <p></p>}
+                                </div>
+                            </div>    
                     </div>
                 </div>
                 
