@@ -249,8 +249,9 @@ main {
         width: 100%;
         margin-top: -50px;
         @media (max-width: 790px) {
-          margin-top: -240px;
+          // margin-top: -240px;
           height: 270px;
+          margin-top: -350px;
         }
         .thumbnail-single {
           width: 100%;
