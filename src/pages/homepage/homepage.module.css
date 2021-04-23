@@ -1,7 +1,7 @@
 .homepageContainer{
     position: relative;
     width: 100vw;
-    height: 720px;
+    height: 100vh;
     display: flex;
     justify-content:center;
     background: url('../../assets/Flat-Mountains.svg') no-repeat top;
