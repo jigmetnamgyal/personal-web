@@ -1,15 +1,13 @@
 .navBar{
     position: relative;
-    top: 0;
     display: flex;
     color: #000000;
     background-color: white;
     height: 13vh;
     width: 100vw;
-    left: 0;
     align-items: center;
     justify-content: space-between;
-    padding-right: 15px;
+    padding-right: 0;
     z-index: 20000;
     backdrop-filter: blur(10px);
 }
