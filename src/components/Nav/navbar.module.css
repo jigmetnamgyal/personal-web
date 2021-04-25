@@ -1,5 +1,5 @@
 .navBar{
-    position: fixed;
+    position: relative;
     top: 0;
     display: flex;
     color: #000000;
