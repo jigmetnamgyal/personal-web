@@ -21,7 +21,7 @@ const Projects = () => {
         
             <div className={styles.projectsMainContainer}>
                 <div className={styles.headerAbout}>
-                    <p className={styles.contentHeader}>Bookshelf</p>
+                    <p className={styles.contentHeader}>Projects</p>
                 </div>
                 <div className={styles.projectsContentMain}>
                     {projectsDisplay}

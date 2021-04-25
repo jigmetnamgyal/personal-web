@@ -211,12 +211,14 @@ main {
         }
         .model {
           overflow: hidden;
-          margin-top: -250px;
+          margin-top: -150px;
           display: flex;
           justify-content: center;
           align-items: center;
           text-align: center;
-         
+          @media (max-width: 790px) {
+            margin-top: -190px;
+          }
           .first {
             margin-right: 40px;
             @media (max-width: 790px) {

@@ -1,6 +1,6 @@
 import Homepage from './pages/homepage/Homepage';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import NavBar from './components/navbar/Navbar';
+import NavBar from './components/Nav/NavigationBar';
 import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
