@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 200px;
     background-color: #0b6777;
     left: 0;
     top: 0;
@@ -62,7 +62,7 @@
     color: #ffffff;
 }
 
-@media screen and (min-width: 680px){
+@media screen and (min-width: 912px){
     .sidebar{
         display: none;
     }

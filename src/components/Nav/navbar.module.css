@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (min-width: 680px){
+@media screen and (min-width: 912px){
     .header__navigation{
         display: flex;
         justify-content: center;
