@@ -6,7 +6,7 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    background-color: #0689a0;
+    background-color: #0b6777;
     left: 0;
     top: 0;
     box-shadow: 1px 0 7px rgba(255, 255, 255, 0.205);
@@ -41,11 +41,11 @@
 }
 .sidebar > ul {
     display: flex;
-    height: 200px;
+    height: 350px;
     width: 150px;
     justify-content: space-between;
     flex-direction: column;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .sidebar > ul > li {
