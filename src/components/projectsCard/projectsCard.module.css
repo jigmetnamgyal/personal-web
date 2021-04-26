@@ -4,7 +4,7 @@
     /* display: flex; */
     /* flex-direction: column; */
     height: 550px;
-    border: 2px solid #da6c6c;
+    border: 2px solid #101130;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -14,7 +14,7 @@ a:hover{
     text-decoration: none;
 }
 .projectsCardContainer:hover{
-    box-shadow: #da6c6c7a  0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, #da6c6cce 0px 1px 0px inset;
+    box-shadow: #1011309a  0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, #1011309c 0px 1px 0px inset;
 }
 .projectsInfo{
     color: gray;

@@ -9,7 +9,7 @@
     align-items: center;
     z-index:200;
     padding-top: 100px;
-    background: #0f0f0f url('../../assets/sci/cool.jpeg') no-repeat center;
+    background: #0f0f0f url('../../assets/sci/cool1.jpeg') no-repeat center;
     background-size: cover;
 }
 .bgImg{
@@ -145,7 +145,7 @@
         margin-top: 20px;
     }
     .homepageContainer{
-        background: #0f0f0f url('../../assets/sci/cool.jpeg') no-repeat left;
+        background: #0f0f0f url('../../assets/sci/cool1.jpeg') no-repeat left;
         background-size: cover;
     }
     
