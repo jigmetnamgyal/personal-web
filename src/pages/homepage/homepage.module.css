@@ -91,18 +91,10 @@
 }
 /* @media only screen and (max-width: 1106px){ */
 @media only screen and (max-width: 1106px){
-    .lilInfo{
-        /* font-size:10px !important; */
-    }
     .bgVid{
         /* flex: 0.5; */
         /* padding-right: 50px !important; */
         margin-top: 0px;
-    }
-    .btnContainer{
-        /* width: 160px; */
-        /* height: 210px; */
-        /* margin-bottom: 0px; */
     }
     .colorP{
         font-size: 15px;
