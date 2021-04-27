@@ -1,7 +1,7 @@
 import styles from './footer.module.css';
-import {AiOutlineInstagram, AiFillFacebook, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
+import {AiOutlineInstagram,AiOutlineGithub, AiFillFacebook, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai'
 import {Link} from 'react-router-dom';
-import me from '../../assets/me.png';
+import me from '../../assets/me.svg';
 
 const Footer = () => {
     return (
@@ -17,22 +17,23 @@ const Footer = () => {
                         that are worth it, and to be surrounded by those who bring out the best in me.</p>
                     <div className={styles.footerOneMediaContainer}>
                         <a
-                            href="https://www.instagram.com/wangchuk_k/"
+                            href="https://www.instagram.com/jigmetashinamgyal/"
                             rel="noopener noreferrer"
                             target="_blank"
                             className={styles.footerInsta}><AiOutlineInstagram/>
                         </a>
                         <a
-                            href="https://www.facebook.com/Wangchuk-Kinga-Beats-2199505916803723"
+                            href="https://www.facebook.com/Mugiwara.D.Jigme619/"
                             rel="noopener noreferrer"
                             target="_blank"
                             className={styles.footerFacebook}><AiFillFacebook/>
                         </a>
-                        {/* <a href="/" rel="noopener noreferrer" target="_blank" className={styles.footerTwitter}><AiOutlineTwitter/>
+                        <a href="https://twitter.com/JigmeTashiNamg1" rel="noopener noreferrer" target="_blank" className={styles.footerTwitter}><AiOutlineTwitter/>
                         </a>
-                        <a href="/" rel="noopener noreferrer" target="_blank" className={styles.footerLinkedin}><AiFillLinkedin/>
-                        </a> */
-                        }
+                        <a href="https://www.linkedin.com/in/jigme-tashi-namgyal-511a811a3/" rel="noopener noreferrer" target="_blank" className={styles.footerLinkedin}><AiFillLinkedin/>
+                        </a>
+                        <a href="https://github.com/JigmeT123" rel="noopener noreferrer" target="_blank" className={styles.footerLinkedin}><AiOutlineGithub/>
+                        </a>
                     </div>
                 </div>
 
