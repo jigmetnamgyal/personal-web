@@ -5,8 +5,7 @@ import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
-import './App.scss';
-import Footer from './components/footer/Footer';
+import './App.scss'
 
 function App() {
     return (
@@ -20,7 +19,6 @@ function App() {
                         <Route exact path="/projects" component={Projects}/>
                         <Route path="/projects/:projectId" component={IndividualProjects}/>
                     </Switch>
-                    <Footer />
             </div>
         </Router>
     );

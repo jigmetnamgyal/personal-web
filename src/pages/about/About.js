@@ -2,6 +2,7 @@ import styles from './about.module.css';
 import me from '../../assets/me.jpeg';
 import {AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineGithub, AiOutlineFacebook} from 'react-icons/ai';
 import {motion} from 'framer-motion';
+import Footer from '../../components/footer/Footer';
 
 let easing = [0.6, -0.05, 0.01, 0.99];
 
@@ -123,6 +124,7 @@ const About = () => {
                 </motion.div>
             </div>
         </motion.div>
+        <Footer />
         </>
     )
 }

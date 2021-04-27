@@ -6,6 +6,8 @@ import Rating from '@material-ui/lab/Rating';
 import {Button} from '@material-ui/core'
 import {Link} from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
+import Footer from '../../components/footer/Footer';
+
 const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
@@ -85,6 +87,7 @@ const Bookshelf = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

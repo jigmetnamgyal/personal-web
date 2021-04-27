@@ -2,7 +2,7 @@ import styles from './homepage.module.css';
 // import me from '../../assets/me.svg';
 import rich from '../../assets/physics.jpeg';
 import {motion} from "framer-motion"
-
+import Footer from '../../components/footer/Footer';
 const Homepage = () => {
     return (
         <>
@@ -37,6 +37,7 @@ const Homepage = () => {
                 <div className={styles.wave1}></div>
             </div>
         </div>
+        <Footer />
         </>
     )
 }
