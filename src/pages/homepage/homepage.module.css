@@ -180,7 +180,11 @@
         height: 180px;
         margin-top: 20px;
     }
-    
+    .thisIsImg{
+        width: 150px;
+        height: 150px;
+       
+    }
 }
 @media only screen and (max-width: 685px){
 
@@ -191,6 +195,13 @@
     .colorP{
         font-size: 12px;
         color:#fff;
+    }
+    .imgBlockHolder{
+        padding: 20px;
+    }
+    .thisIsImg{
+        width: 100px;
+        height: 100px;
     }
 }
 @media only screen and (max-width: 452px){
@@ -211,5 +222,23 @@
         background: #0f0f0f url('../../assets/sci/cool1.jpeg') no-repeat left;
         background-size: cover;
     }
-    
+    .imgBlockHolder{
+        grid-template-columns: auto;
+        place-items: center;
+        row-gap: 50px;
+    }
+    .caption{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .topicMidContent{
+        font-size: 30px;
+        margin: 30px 0;
+        letter-spacing: 3px;
+    }
+    .thisIsImg{
+        width: 150px;
+        height: 150px;
+    }
 }
