@@ -5,7 +5,6 @@ import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
-import './App.scss'
 
 function App() {
     return (
