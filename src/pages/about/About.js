@@ -1,5 +1,5 @@
 import styles from './about.module.css';
-import me from '../../assets/me.JPG';
+import me from '../../assets/me.jpeg';
 import {AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineGithub, AiOutlineFacebook} from 'react-icons/ai';
 import {motion} from 'framer-motion';
 
