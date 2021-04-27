@@ -32,6 +32,10 @@ const Homepage = () => {
                 <img className={styles.mePic} src={rich} alt="This is me"/>
                 <p className={styles.colorP}><i>Currently reading.</i></p>
             </div>
+            <div className={styles.waveAnimate}>
+                <div className={styles.wave}></div>
+                <div className={styles.wave1}></div>
+            </div>
         </div>
         </>
     )

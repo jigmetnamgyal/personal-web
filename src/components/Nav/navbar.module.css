@@ -73,6 +73,9 @@
         font-size: 15px !important;
         letter-spacing: 2px;
     }
+    .navBar{
+        height: 8vh;
+    }
 }
 
 @media screen and (min-width: 912px){

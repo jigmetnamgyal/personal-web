@@ -9,12 +9,10 @@ import './App.scss';
 
 
 function App() {
-   
     return (
         <Router>
             <div className="App">
                 <NavBar />
-
                     <Switch>
                         <Route exact path="/" component={Homepage}/>
                         <Route path="/aboutMe" component={About}/>

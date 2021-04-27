@@ -4,6 +4,7 @@ import SideBar from './tools/SideBar';
 import styles from './navbar.module.css';
 
 const NavigationBar = () => {
+    
     const [toggleFlag, setToggleFlag] = useState(false);
     const hamHandler = () => {
         if (!toggleFlag) {
@@ -17,7 +18,7 @@ const NavigationBar = () => {
     return (
         <div className={styles.mainlajust}>
             <NavBar hamHandler={hamHandler}/>
-            <SideBar close={closeHandler} show={toggleFlag}/>
+            <SideBar close={closeHandler} show={toggleFlag} />
         </div>
     )
 }
