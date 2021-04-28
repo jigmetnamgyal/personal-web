@@ -81,7 +81,7 @@ const IndividualProjects = (props) => {
                     {
                         project && (
                             <motion.div variants={stagger} className={styles.infoProject}>
-                                <motion.h3 variants={fadeInUp}>A little about the projects</motion.h3>
+                                <motion.h3 className={styles.infoClassWha} variants={fadeInUp}>A little about the projects</motion.h3>
                                 <motion.p variants={fadeInUp}>{project.projectsInfo}</motion.p>
                                 {project && !project.flag && <a href={project.projectLink} target="_blank" rel="noreferrer">Link to the project</a>}
                             </motion.div>
