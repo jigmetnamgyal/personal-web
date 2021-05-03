@@ -1,5 +1,5 @@
 import fucked from '../../assets/everythingisfucked.jpeg';
-import rich from '../../assets/rich.jpeg';
+import rich from '../../assets/rich.jpg';
 import phyImp from '../../assets/physics.jpeg';
 import mathBook from '../../assets/17.jpeg';
 

@@ -10,7 +10,6 @@
 .contentHeader{
     margin:50px 0;
     font-size: 32px;
-    font-family: 'Shadows Into Light', cursive;
 }
 .bookshelfMainContent{
     display: flex;
@@ -57,16 +56,18 @@
     height: 100%;
     flex: 0.4;
     object-fit: contain;
-    /* background-color: palevioletred; */
     display: flex;
     justify-content: center;
     align-items:center;
-    /* margin-right: 20px; */
+    margin: 0 20px;
+    padding: 10px;
+    
 }
 .imgCover{
     width: 70%;
     height: 65%;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 10.95px 10.95px 5.6px;
 }
 
 .infoBookHolder{
@@ -195,10 +196,12 @@
         height: 60%;
         flex: 0.4;
     }
+
     .imgCover{
-        width: 70%;
-        height: 65%;
-        padding-top: 10px;
+        width: 80%;
+        height: 80%;
+        /* padding-top: 10px; */
+       
     }
     .borderLine1{
         height: 0px;
