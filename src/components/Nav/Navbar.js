@@ -4,7 +4,7 @@ import {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {GoHome} from 'react-icons/go'
 import {MdPersonPin,MdRateReview} from 'react-icons/md';
-import {GiBookshelf} from 'react-icons/gi';
+import {GiBookshelf, GiThreeFriends} from 'react-icons/gi';
 import {ImBlog} from 'react-icons/im';
 import {AiFillProject} from 'react-icons/ai';
 
@@ -25,8 +25,8 @@ const Navbar = ({hamHandler}) => {
                         <Link to="/aboutMe"><MdPersonPin className="icons" /> About Me</Link>
                         <Link to="/bookShelf"><GiBookshelf className="icons" /> Bookshelf</Link>
                         <Link to="/books"><MdRateReview className="icons" /> Books Review</Link>
-                        <Link to="/blog"><ImBlog className="icons" /> Blog</Link>
                         <Link to="/projects"><AiFillProject className="icons" /> Projects</Link>
+                        <Link to="/friendZone"><GiThreeFriends className="icons" /> FriendZone</Link>
                     </ul>
                 </nav>
         </header>

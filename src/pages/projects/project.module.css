@@ -3,13 +3,10 @@
     height: auto;
     justify-content: center;
     align-items:center;
-    /* margin-top: 100px; */
-    /* background-color: red; */
 }
 .contentHeader{
     margin:50px 0;
     font-size: 32px;
-    /* font-family: 'Shadows Into Light', cursive; */
 }
 a:hover{
     text-decoration: none !important;

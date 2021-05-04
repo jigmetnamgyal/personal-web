@@ -5,7 +5,7 @@ import About from './pages/about/About';
 import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
-import Blog from './pages/blog/Blog';
+import BookReviews from './pages/blog/Blog';
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                         <Route path="/bookShelf" component={Bookshelf}/>
                         <Route exact path="/projects" component={Projects}/>
                         <Route path="/projects/:projectId" component={IndividualProjects}/>
-                        <Route path="/blog" component={Blog}/>
+                        <Route path="/books" component={BookReviews}/>
                     </Switch>
             </div>
         </Router>
