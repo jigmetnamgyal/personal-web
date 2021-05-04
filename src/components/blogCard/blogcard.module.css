@@ -6,9 +6,11 @@
    align-items: center; 
 }
 .imgHolder{
-   width: 180px;
-   height: 270px;
+   width: 130px;
+   height: 200px;
+   margin-bottom: 10px;
    object-fit: contain;
+   box-shadow: rgba(0, 0, 0, 0.15) 10.95px 10.95px 5.6px;
 }
 .imgOfBlog{
    width: 100%;
@@ -56,7 +58,9 @@
 .reading{
    color: rgb(179, 34, 179);
    font-weight: 600;
+   margin: 15px 0;
 }
+
 @media only screen and (max-width: 475px){
    .blogContent > p{
       font-size: 12px;
@@ -66,5 +70,11 @@
    }
    .blogContent > a{
       font-size: 12px;
+   }
+   .blogContent{
+      width: 200px;
+   }
+   .hashContainer{
+      width: 200px;
    }
  }

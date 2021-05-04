@@ -11,7 +11,7 @@ export const blogCardData = [
         "date": "29 April 2021",
         "genre": "Self-help book",
         "thumbnail": everyThingIsFucked,
-        "hashtag": ["#selfHelp"],
+        "hashtag": ["#SelfHelp"],
         "lilInfo": "Coming Soon ..."
     },
     {
@@ -41,7 +41,7 @@ export const blogCardData = [
         "date": "29 April 2021",
         "genre": "Physics",
         "thumbnail": Rich,
-        "hashtag": ["#financial literacy"],
+        "hashtag": ["#Financial Literacy"],
         "lilInfo": "Coming soon ..."
     }
 ]

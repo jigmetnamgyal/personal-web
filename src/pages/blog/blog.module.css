@@ -93,12 +93,20 @@
 
   @media only screen and (max-width: 475px){
     .blogTitle > i > h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     .blogTitle1 > i > h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     .blogTitle1 > p{
         font-size: 15px;
+    }
+    .allPost{
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 60px;
     }
   }
