@@ -6,7 +6,7 @@
    align-items: center; 
 }
 .imgHolder{
-   width: 200px;
+   width: 180px;
    height: 270px;
    object-fit: contain;
 }
@@ -34,8 +34,8 @@
 .blogContent > h3{
    text-align: center;
    font-weight: 500;
-   letter-spacing: 2px;
-   font-size: 25px;
+   letter-spacing: 1px;
+   font-size: 20px;
 }
 .hashContainer{
    display:flex;
@@ -57,3 +57,14 @@
    color: rgb(179, 34, 179);
    font-weight: 600;
 }
+@media only screen and (max-width: 475px){
+   .blogContent > p{
+      font-size: 12px;
+   }
+   .blogContent > h3{
+      font-size: 15px;
+   }
+   .blogContent > a{
+      font-size: 12px;
+   }
+ }
