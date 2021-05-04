@@ -1,0 +1,222 @@
+.headerAbout{
+    background-color: #efefef;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* margin-top: 100px; */
+}
+.contentHeader{
+    margin:50px 0;
+    font-size: 32px;
+}
+.bookshelfMainContent{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items:flex-start;
+}
+.booksList{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid rgba(128, 128, 128, 0.568);
+    padding-right: 50px;
+    margin: 50px 0;
+}
+.bookListMainContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 48px 0px;
+    padding-right: 30px;
+}
+.borderLine{
+    width: 100%;
+    margin-top: 40px;
+    height: 1px;
+    background-color: rgba(161, 161, 161, 0.5);
+}
+.borderLine1{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 1px;
+    background-color: rgba(161, 161, 161, 0.5);
+}
+.imgCoverHolder{
+    width: 100%;
+    height: 100%;
+    flex: 0.4;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 20px;
+    padding: 10px;
+    
+}
+.imgCover{
+    width: 70%;
+    height: 65%;
+    /* padding-top: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 10.95px 10.95px 5.6px;
+}
+
+.infoBookHolder{
+    flex: 1;
+    display: flex;
+    /* justify-content:center;
+    align-items:center; */
+    flex-direction: column;
+}
+.infoBook{
+    line-height: 25px;
+    margin-top: 15px;
+}
+.btnRead{
+    background-color: #da6c6c !important;
+    color: white !important;
+    width: 25%;
+    margin-top: 15px !important;
+}
+.infoBookHolder > a{
+    text-decoration: none !important;
+}
+.btnRead:hover{
+    transform:scale(1.05) !important;
+    transition: 0.1s all ease-in;
+}
+.bookName1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.authName1{
+    color: gray;
+}
+.popularPost{
+    width: 100%;
+    height: 100%;
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    margin: 55px 0;
+    padding: 40px;
+}
+.titlePopular{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    /* background-color: greenyellow; */
+    border-top: 1px solid rgba(161, 161, 161, 0.5);
+    border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+}
+.mainPopPost{
+    width: 100%;
+    background-color: paleturquoise;
+}
+.paginationBttns {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 4px 9px;
+    margin: 8px;
+    border-radius: 2px;
+    border: 1px solid #da6c6c;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #da6c6c;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #da6c6c;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: rgb(235, 235, 235);
+  }
+@media only screen and (max-width: 1098px){
+    .bookshelfMainContent{
+        flex-direction: column;
+    }
+    .popularPost{
+        margin: 0 0;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .btnRead{
+        font-size: 11px !important;
+    }
+    .bookListMainContent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin: 48px 0px;
+        padding-right: 0px;
+    }
+    .booksList{
+        padding-right: 0px;
+        margin: 0 0;
+        padding: 30px;
+    }
+    .infoBookHolder{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .imgCoverHolder{
+        width: 60%;
+        height: 60%;
+        flex: 0.4;
+    }
+
+    .imgCover{
+        width: 80%;
+        height: 80%;
+        /* padding-top: 10px; */
+       
+    }
+    .borderLine1{
+        height: 0px;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .headerAbout{
+        height: 90px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .btnRead{
+        background-color: #da6c6c !important;
+        color: white !important;
+        width: 40%;
+    }
+}
