@@ -12,8 +12,6 @@ import thrivingArtists from '../../assets/thrivingArtists/thrivingartists.png';
 import thriv from '../../assets/thrivingArtists/thriv.svg';
 import cert1 from '../../assets/arexp/cert.jpeg';
 import BIG from '../../assets/arexp/BIG.png';
-import nope from '../../assets/thrivingArtists/nope.svg'
-import nope2 from '../../assets/thrivingArtists/nope2.svg'
 import thrivaward from '../../assets/thrivingArtists/award.jpeg';
 
 export const indiProjectsData = [

@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {indiProjectsData} from './indiProjectsData';
-import {motion, useViewportScroll, useTransform} from 'framer-motion';
+import {motion} from 'framer-motion';
 import styles from './indiProject.module.css';
 import Footer from '../../components/footer/Footer';
 let easing = [0.6, -0.05, 0.01, 0.99];
@@ -33,7 +33,6 @@ const fadeInUp = {
 };
 
 const IndividualProjects = (props) => {
-    const {scrollYProgress} = useViewportScroll();
     // const y = useTransform(scrollYProgress, [60], [0]);
     // const opacity = useTransform(scrollYProgress, [0], [1]);
 
