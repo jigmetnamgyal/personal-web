@@ -14,6 +14,7 @@ import cert1 from '../../assets/arexp/cert.jpeg';
 import BIG from '../../assets/arexp/BIG.png';
 import nope from '../../assets/thrivingArtists/nope.svg'
 import nope2 from '../../assets/thrivingArtists/nope2.svg'
+import thrivaward from '../../assets/thrivingArtists/award.jpeg';
 
 export const indiProjectsData = [
     {
@@ -27,18 +28,20 @@ export const indiProjectsData = [
         flag: true,
         "founder": "Jigme Tashi Namgyal",
         "projectsInfo": "AR Exp is a start-up idea powered by the frontier technology of AR and blockchain technology. A fun environment for student to learn by providing augmented reality experience and Allow Kids to Learn, Earn, Create, Sell and Buy their Creative Achievements. The student will be required to scan a custom-made books and card where they can get access to 3-d labelled model of the study material. We are going to bring life to the inanimate visuals in the text books. It is also a motivation booster for the student. We are going to Bring in gamification and rewarding experience. Students can earn digital token called DrukCoin as and when they complete homework’s, tests, courses etc. DrukCoin can be used to buy digital assets such as digital arts, badges, themes etc from the store and can also be sold to other people. (such as in NFTs) Ar Exp will also allow the teachers and parents to keep track of the students’ performance in school and visualize with live data on the website on daily basis. Ar Exp will also solve the traditional means of storing and validating students’ records and certificate by digitally storing it in a block chain technology. ArExp will enhance the interest and interaction digitally. The AR Exp application will be accessible to instructor for online or physical activities and for students who can access the application and learn by themselves.",
-        "projectLink": "none"
+        "projectLink": "/",
+        flag1: true,
     },
     {
         "id":1,
         "projectName": "Thriving Artists",
         "images": [thrivingArtists, thriv, heartImg, drukCoin, one, two, three, four, five, six],
-        "awardImgs": [nope,nope2],
-        "certInfo":["No awards :(", "No awards :("],
+        "awardImgs": [thrivaward],
+        "certInfo":["I remotly participated in ADA University Haji Zeynalabdin Taghiyev Awards and Won second place. It was presented in two categories: Challenges of Society and Challenges of Industry. The purpose of the former is to transform the university into a community, where a sense of citizenship and social responsibility is upheld and endorsed. The purpose of the latter is to foster a sense of entrepreneurship among our students and help them turn their ideas into a venture. The prestigious HZT Awards promote values such as civic engagement, social responsibility, teamwork, caring for others, daring to have an idea, then, putting that idea into action."],
         "type": "SRP",
         "founder": "Co-Founded",
-        flag: false,
-        "awardTitle": ["No award", "No Award"],
+        flag1: false,
+        flag: true,
+        "awardTitle": ["HZT Award"],
         "projectsInfo": "Thriving Artists is a project designed to gather young, thriving artists and art enthusiasts from all over Azerbaijan in one platform. We place the artworks of the young artists to give them an opportunity to showcase their work, to help them gain recognition and earn money by doing the thing they like the most, art. Considering that in Azerbaijan the field of art is still under development and artists do not get enough recognition for their creativity and are obliged to promote themselves, we decided to create this platform to gather the works of these artists in a single online gallery so they can showcase their works without being concerned about self-promotion. This platform is designed as a combination of an art gallery and a shopping website. Art enthusiasts can view the art pieces, read about them in the gallery section, and get to know the artists better by visiting their profiles. Viewers who want to purchase something will have the contact information of the artist and will buy the item directly from the creator. Thriving Artists is not only an exhibition platform for the art creators but also an online store for the art enthusiasts who enjoy receiving or gifting a piece of art. The prices of the works are determined by the artists themselves. So, at the end of the day, the buyer will not only receive well-priced, handmade artwork but also end up supporting the careers of local artists.",
         "projectLink": "https://www.thriving-artists.com/"
     }

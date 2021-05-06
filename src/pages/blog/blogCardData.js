@@ -43,5 +43,45 @@ export const blogCardData = [
         "thumbnail": Rich,
         "hashtag": ["#Financial Literacy"],
         "lilInfo": "Coming soon ..."
+    },
+    {
+        id: 3,
+        "title":"Rich Dad, Poor Dad",
+        "author": "Robert T. Kiyosaki, Sharon Lechter",
+        "date": "29 April 2021",
+        "genre": "Physics",
+        "thumbnail": Rich,
+        "hashtag": ["#Financial Literacy"],
+        "lilInfo": "Coming soon ..."
+    },
+    {
+        id: 3,
+        "title":"Rich Dad, Poor Dad",
+        "author": "Robert T. Kiyosaki, Sharon Lechter",
+        "date": "29 April 2021",
+        "genre": "Physics",
+        "thumbnail": Rich,
+        "hashtag": ["#Financial Literacy"],
+        "lilInfo": "Coming soon ..."
+    },
+    {
+        id: 3,
+        "title":"Rich Dad, Poor Dad",
+        "author": "Robert T. Kiyosaki, Sharon Lechter",
+        "date": "29 April 2021",
+        "genre": "Physics",
+        "thumbnail": Rich,
+        "hashtag": ["#Financial Literacy"],
+        "lilInfo": "Coming soon ..."
+    },
+    {
+        id: 3,
+        "title":"Rich Dad, Poor Dad",
+        "author": "Robert T. Kiyosaki, Sharon Lechter",
+        "date": "29 April 2021",
+        "genre": "Physics",
+        "thumbnail": Rich,
+        "hashtag": ["#Financial Literacy"],
+        "lilInfo": "Coming soon ..."
     }
 ]

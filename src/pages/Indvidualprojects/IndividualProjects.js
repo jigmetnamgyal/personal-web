@@ -83,7 +83,7 @@ const IndividualProjects = (props) => {
                             <motion.div variants={stagger} className={styles.infoProject}>
                                 <motion.h3 className={styles.infoClassWha} variants={fadeInUp}>A little about the projects</motion.h3>
                                 <motion.p variants={fadeInUp}>{project.projectsInfo}</motion.p>
-                                {project && !project.flag && <a href={project.projectLink} target="_blank" rel="noreferrer">Link to the project</a>}
+                                {project && project.flag && <a href={project.projectLink} target="_blank" rel="noreferrer">Link to the project</a>}
                             </motion.div>
                         )
                     }
@@ -118,10 +118,10 @@ const IndividualProjects = (props) => {
                                     }}
                                     className={styles.imgOriginal1}
                                     src={project.awardImgs[0]}
-                                    alt={project.projectName}/>
+                                    alt={project.projectName}/>      
                         }
                     </div>
-                    <div className={styles.projectCertHolder1}>
+                    {project && project.flag1 ? (<div className={styles.projectCertHolder1}>
                         {
                             project && (
                                 <motion.div variants={stagger} className={styles.infoProject1}>
@@ -150,7 +150,7 @@ const IndividualProjects = (props) => {
                                     src={project.awardImgs[1]}
                                     alt={project.projectName}/>
                             }
-                    </div>
+                    </div>):<p></p>}
                     </>
                 ): <p></p>}
                 

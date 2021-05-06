@@ -37,7 +37,7 @@
 }
 
 .btnContainer{
-    width: 180px;
+    width: 165px;
     height: 230px;
     margin-bottom: 150px;
     z-index: 2;
@@ -71,7 +71,6 @@
 .mePic{
     width: 100%;
     height: 100%;
-    
 }
 .lilInfo{
     font-size:37px !important;
