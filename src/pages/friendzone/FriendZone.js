@@ -38,7 +38,7 @@ const FriendZone = () => {
                 </div>
             </div>
             <div className={styles.bottomPart}>
-                <p>Join a growing community of more than 80,000 (🤯) friendly readers. Every Sunday I share actionable productivity tips, practical life advice, and high-quality insights from across the web, directly to your inbox.</p>
+                <p>Join a growing community of friendly readers. Every Sunday I share what I learn in a week. If you are a science and technology enthusiast you should definitly sign up for it so that I can talk with you and send my insights directly to your inbox.</p>
                 <form className={styles.formContainer}>
                     <Grid className={styles.gridContainer} container="container">
                         <TextField
@@ -52,7 +52,7 @@ const FriendZone = () => {
                         <Button onClick={submitHandler} className={styles.submitbtn}>Submit</Button>
                     </Grid>
                 </form>
-                <p>And if you'd like to read back through my previous emails and browse through the archives, you can find them below. Be warned, I've been writing this newsletter for a while so there's a fair few 😉.</p>
+                <p>Feel free to reply to my mail. I love to talk. We can even hang out and have a nice coffee together. I am looking forward to talk to you :)</p>
             </div>
             <Footer />
         </div>
