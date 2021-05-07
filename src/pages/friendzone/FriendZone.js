@@ -1,11 +1,29 @@
 import styles from './friendzone.module.css';
 import newsletter from '../../assets/newsletter.svg';
-import {Grid, TextField, Button, Select} from '@material-ui/core'
-import {useState, useEffect} from 'react';
-import {db} from '../../firebase';
+import {Grid, TextField, Button} from '@material-ui/core'
+import {useState} from 'react';
+import firebase from '../../firebase';
 import Footer from '../../components/footer/Footer';
+import { v4 as uuidv4 } from 'uuid';
+
+
 
 const FriendZone = () => {
+    const ref = firebase.firestore().collection('users');
+    const [email, setEmail] = useState("");
+    const nameHandler = e => {
+        setEmail(e.target.value);
+    }
+    const submitHandler = e => {
+        e.preventDefault();
+        let id = uuidv4();
+        ref.doc(id).set({
+            gmail: email
+        }).catch((err) => {
+            console.error(err);
+        });
+    }
+    
     return (
         <div className={styles.friendzoneContainer}>
             <div className={styles.topPart}>
@@ -27,11 +45,11 @@ const FriendZone = () => {
                             className={styles.textField}
                             multiline={true}
                             variant="outlined"
-                            label="Name"
-                            // value={name}
-                            // onChange={nameHandler}
+                            label="Email"
+                            value={email}
+                            onChange={nameHandler}
                             />
-                        <Button className={styles.submitbtn}>Submit</Button>
+                        <Button onClick={submitHandler} className={styles.submitbtn}>Submit</Button>
                     </Grid>
                 </form>
                 <p>And if you'd like to read back through my previous emails and browse through the archives, you can find them below. Be warned, I've been writing this newsletter for a while so there's a fair few 😉.</p>
