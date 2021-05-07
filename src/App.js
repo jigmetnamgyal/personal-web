@@ -6,6 +6,7 @@ import Bookshelf from './pages/bookshelf/Bookshelf';
 import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
 import BookReviews from './pages/blog/Blog';
+import FriendZone from './pages/friendzone/FriendZone';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                         <Route exact path="/projects" component={Projects}/>
                         <Route path="/projects/:projectId" component={IndividualProjects}/>
                         <Route path="/books" component={BookReviews}/>
+                        <Route path="/friendZone" component={FriendZone}/>
                     </Switch>
             </div>
         </Router>

@@ -1,0 +1,38 @@
+.friendzoneContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.imgHolderNews{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+.topPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgNews{
+    height: 100%;
+    width: 100%;
+}
+.headerTitleNews{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerTitleNews > p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 45px;
+}
+.bottomPart{
+
+}
