@@ -5,23 +5,28 @@ import {useState} from 'react';
 import firebase from '../../firebase';
 import Footer from '../../components/footer/Footer';
 import { v4 as uuidv4 } from 'uuid';
-
+import thanks from '../../assets/thanks.svg';
 
 
 const FriendZone = () => {
     const ref = firebase.firestore().collection('users');
     const [email, setEmail] = useState("");
+    const [flag, setFlag] = useState(true);
+
     const nameHandler = e => {
         setEmail(e.target.value);
     }
     const submitHandler = e => {
         e.preventDefault();
+        setFlag(false);
         let id = uuidv4();
         ref.doc(id).set({
             gmail: email
         }).catch((err) => {
             console.error(err);
+            setFlag(true);
         });
+        setEmail("");
     }
     
     return (
@@ -39,19 +44,28 @@ const FriendZone = () => {
             </div>
             <div className={styles.bottomPart}>
                 <p>Join a growing community of friendly readers. Every Sunday I share what I learn in a week. If you are a science and technology enthusiast you should definitly sign up for it so that I can talk with you and send my insights directly to your inbox.</p>
-                <form className={styles.formContainer}>
-                    <Grid className={styles.gridContainer} container="container">
-                        <TextField
-                            className={styles.textField}
-                            multiline={true}
-                            variant="outlined"
-                            label="Email"
-                            value={email}
-                            onChange={nameHandler}
-                            />
-                        <Button onClick={submitHandler} className={styles.submitbtn}>Submit</Button>
-                    </Grid>
-                </form>
+                {flag ? (
+                     <form className={styles.formContainer}>
+                     <Grid className={styles.gridContainer} container="container">
+                         <TextField
+                             className={styles.textField}
+                             multiline={true}
+                             variant="outlined"
+                             label="Email"
+                             value={email}
+                             onChange={nameHandler}
+                             />
+                         <Button onClick={submitHandler} className={styles.submitbtn}>Submit</Button>
+                     </Grid>
+                 </form>
+                ):(
+                    <div className={styles.thanksContainer}>
+                         <h1 className={styles.thanksLetter}>Thank you for subscribing to my newsletter. I will be looking forward to talk with you :)</h1>
+                         <img className={styles.thanksImg} src={thanks} alt="thank you" />
+                    </div>
+                   
+                )      
+                }
                 <p>Feel free to reply to my mail. I love to talk. We can even hang out and have a nice coffee together. I am looking forward to talk to you :)</p>
             </div>
             <Footer />

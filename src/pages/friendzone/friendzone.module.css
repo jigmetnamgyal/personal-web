@@ -81,6 +81,27 @@
     padding: 15px !important;
     color: #fff !important;
 }
+.thanksLetter{
+    width: 100%;
+    color: rgb(91, 182, 91);
+    text-align: center;
+}
+.thanksImg{
+    width: 150px;
+    height: 150px;
+}
+.thanksContainer > h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.thanksContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
 @media only screen and (max-width: 455px){
     .headerTitleNews > h1{
@@ -105,5 +126,15 @@
     }
     .formContainer{
         width: 80%;
+    }
+    .thanksLetter{
+        font-size: 15px;
+    }
+    .thanksContainer > h1{
+        font-size: 20px;
+    }
+    .thanksContainer{
+        width: 90%;
+        padding: 20px;
     }
 }
