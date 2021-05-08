@@ -45,7 +45,7 @@ const Homepage = () => {
             </div>
         </div>
         <div className={styles.homeMidContent}>
-            <h1 className={styles.topicMidContent}>Blog Topics</h1>
+            <h1 className={styles.topicMidContent}>Topics that I am interested in</h1>
             <div className={styles.imgBlockHolder}>
                 <div className={styles.thisIsImg}>
                     <img className={styles.imgCool} src={space} alt="space"/>
@@ -65,7 +65,7 @@ const Homepage = () => {
                 </div>
                 <div className={styles.thisIsImg}>
                     <img className={styles.imgCool} src={story} alt="story"/>
-                    <p className={styles.caption}>Story</p>
+                    <p className={styles.caption}>Self Help</p>
                 </div>
                 <div className={styles.thisIsImg}>
                     <img className={styles.imgCool} src={society} alt="society"/>
