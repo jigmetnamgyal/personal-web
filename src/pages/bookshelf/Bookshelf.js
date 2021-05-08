@@ -49,7 +49,7 @@ const Bookshelf = () => {
                         <Rating name="half-rating-read" defaultValue={data.rating} precision={0.5} readOnly />
                     </div>
                     <p className={styles.infoBook}>{data.lilAboutBook}</p>
-                    <Link to="/"><Button className={styles.btnRead}>Read reviews</Button></Link>
+                    <Link to="/comingsoon"><Button className={styles.btnRead}>Read reviews</Button></Link>
                     <div className={styles.borderLine}></div>
                 </div>
             </div>

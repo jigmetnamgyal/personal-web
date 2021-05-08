@@ -1,0 +1,31 @@
+.comingsoonContainer{
+    height: 92vh;
+    width: 100%;
+    background-color: #101130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgSoon{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.imgSoon > h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 455px){
+    .imgSoon{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    } 
+}

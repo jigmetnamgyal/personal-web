@@ -16,7 +16,7 @@ const BlogCard = ({title, author, date, genre, image, hashtag, lilInfo}) => {
                 ))}
                 </div>
                 <p className={styles.abstract}>{lilInfo}</p>
-                <Link to="/" className={styles.reading}>Continue Reading</Link>
+                <Link to="/comingsoon" className={styles.reading}>Continue Reading</Link>
             </div>        
         </div>
     )

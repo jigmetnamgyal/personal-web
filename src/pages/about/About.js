@@ -82,8 +82,7 @@ const About = () => {
                         that are worth it, and to be surrounded by those who bring out the best in me.
                         <br/>
                         <br/>
-                        
-                        I am interested in Space, Science and Technology. It's an art!! I am Not specific to one technology, I love learning new technologies.
+                        I am interested in Space, Science and Technology. It's an art!! I am Not specific to one technology or one field of science, I love learning new things.
                     </motion.p>
                 </motion.div>
                 <motion.div variants={fadeInUp} className={styles.socialMedia}>

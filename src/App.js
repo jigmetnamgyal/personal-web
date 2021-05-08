@@ -7,6 +7,7 @@ import Projects from './pages/projects/Projects';
 import IndividualProjects from './pages/Indvidualprojects/IndividualProjects';
 import BookReviews from './pages/blog/Blog';
 import FriendZone from './pages/friendzone/FriendZone';
+import ComingSoon from './components/comingsoon/Comingsoon';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                         <Route path="/projects/:projectId" component={IndividualProjects}/>
                         <Route path="/books" component={BookReviews}/>
                         <Route path="/friendZone" component={FriendZone}/>
+                        <Route path="/comingsoon" component={ComingSoon}/>
                     </Switch>
             </div>
         </Router>
