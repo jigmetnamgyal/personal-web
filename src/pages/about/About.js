@@ -69,7 +69,7 @@ const About = () => {
             <div className={styles.about__contentHolder}>
                 <motion.div variants={stagger} className={styles.content}>
                     <motion.p variants={fadeInUp} className={styles.contentContent}>
-                        I am Jigme Tashi Namgyal pursuing my education in Bs. Computer Science in ADA University in Baku, Azerbaijan. Due to the covid situation I decided to take a gap year and while I am at it, I am trying to skill up.
+                        I am Jigme Tashi Namgyal, pursuing my education in Bs. Computer Science in ADA University in Baku, Azerbaijan. Due to the covid situation I decided to take a gap year and while I am at it, I am trying to skill up.
                         I am currently working as a software engineer at
                         <a
                             id={styles.targeta}
