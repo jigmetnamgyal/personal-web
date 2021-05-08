@@ -69,16 +69,7 @@ const About = () => {
             <div className={styles.about__contentHolder}>
                 <motion.div variants={stagger} className={styles.content}>
                     <motion.p variants={fadeInUp} className={styles.contentContent}>
-                        My name is Jigme Tashi Namgyal and I am from Trashigang, Bhutan. I am currently
-                        pursuing my education in Bs. Computer Science in ADA University in Baku,
-                        Azerbaijan. Due to the covid situation I decided to take a gap year and while I
-                        am at it, I am trying to skill up.
-                        <br/>
-                        <br/>
-                        I am Seeking to be inspired, to envision the unlikely, to work hard for things
-                        that are worth it, and to be surrounded by those who bring out the best in me.
-                        <br/>
-                        <br/>
+                        I am Jigme Tashi Namgyal pursuing my education in Bs. Computer Science in ADA University in Baku, Azerbaijan. Due to the covid situation I decided to take a gap year and while I am at it, I am trying to skill up.
                         I am currently working as a software engineer at
                         <a
                             id={styles.targeta}
@@ -87,9 +78,12 @@ const About = () => {
                             rel="noreferrer"> Selise Bhutan</a>
                         <br/>
                         <br/>
-                        I am Blockchain and Crypto Enthusiast. Currently looking to enhance and learn
-                        the technology. Contact me if you can help me or want to talk about blockchain
-                        technology. We can work on some cool projects :)
+                        I am Seeking to be inspired, to envision the unlikely, to work hard for things
+                        that are worth it, and to be surrounded by those who bring out the best in me.
+                        <br/>
+                        <br/>
+                        
+                        I am interested in Space, Science and Technology. It's an art!! I am Not specific to one technology, I love learning new technologies.
                     </motion.p>
                 </motion.div>
                 <motion.div variants={fadeInUp} className={styles.socialMedia}>
